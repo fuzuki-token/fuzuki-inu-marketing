@@ -7,7 +7,7 @@ import BtnImg from "../assets/images/buy-now.png"
 import IcFacebook from "../assets/images/icons/ic-facebook.svg"
 import IcTwitter from "../assets/images/icons/ic-twitter.svg"
 import IcLinkedin from "../assets/images/icons/ic-linkedin.svg"
-import IcTelegram from "../assets/images/icons/ic-telegram.svg"
+import IcInstagram from "../assets/images/icons/ic-instagram.svg"
 
 function Home() {
     return (
@@ -35,7 +35,7 @@ function Home() {
                             </div>
                             <div className="col-xl-6">
                                 <div className="fuziku-info-text">
-                                    <p>It's a guarantee that Fizuki Inu will outshine other regular coins. What's your smartest choice? Do you want to stand out in the world of coins? Take a look at our Fuzuki Inu, - The Shiba Kanji!</p>
+                                    <p>It's a guarantee that Fizuki Inu will outshine other regular coins. What's your smartest choice? Do you want to stand out in the world of coins? Take a look at our <a>Fuzuki Inu, - The Shiba Kanji!</a></p>
                                 </div>
                             </div>
                         </div>
@@ -55,16 +55,16 @@ function Home() {
                             <div className="footer-social">
                                 <ul>
                                     <li>
-                                        <a href="javascript:;"><img src={IcFacebook} alt="facebook icon" /></a>
+                                        <a href="https://www.facebook.com/profile.php?id=61556838222899&mibextid=LQQJ4d"><img src={IcFacebook} alt="facebook icon" /></a>
                                     </li>
                                     <li>
-                                        <a href="javascript:;"><img src={IcTwitter} alt="facebook icon" /></a>
+                                        <a href="https://twitter.com/Fuzuki_Inu"><img src={IcTwitter} alt="twitter icon" /></a>
                                     </li>
                                     <li>
-                                        <a href="javascript:;"><img src={IcLinkedin} alt="facebook icon" /></a>
+                                        <a href="https://www.linkedin.com/company/fuzuki-inu/"><img src={IcLinkedin} alt="linkedin icon" /></a>
                                     </li>
                                     <li>
-                                        <a href="javascript:;"><img src={IcTelegram} alt="facebook icon" /></a>
+                                        <a href="https://www.instagram.com/fuzuki.inu/"><img src={IcInstagram} alt="instagram icon" /></a>
                                     </li>
                                 </ul>
                             </div>
