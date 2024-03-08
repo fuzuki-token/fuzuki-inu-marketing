@@ -35,7 +35,7 @@ function Home() {
                             </div>
                             <div className="col-xl-6">
                                 <div className="fuziku-info-text">
-                                    <p>It's a guarantee that Fizuki Inu will outshine other regular coins. What's your smartest choice? Do you want to stand out in the world of coins? Take a look at our <a>Fuzuki Inu, - The Shiba Kanji!</a></p>
+                                    <p>It's a guarantee that Fizuki Inu will outshine other regular coins. What's your smartest choice? Do you want to stand out in the world of coins? Take a look at our <a href="javascript:;">Fuzuki Inu, - The Shiba Kanji!</a></p>
                                 </div>
                             </div>
                         </div>

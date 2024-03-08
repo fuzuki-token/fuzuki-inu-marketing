@@ -130,18 +130,18 @@ header{
 }
 
 .fuziku-info-text{
-  max-width: 430px;
+  max-width: 435px;
   margin-left: auto;
 }
 
 .fuziku-info-text p{
-  font-size: 24px;
-  line-height: 1.3;
-  font-family: "Jockey One", sans-serif;
+  font-size: 18px;
+  line-height: 28px;
   color: #fff;
 }
 
 .fuziku-info-text p a{
+  font-family: "Jockey One", sans-serif;
   background: linear-gradient(90deg, #FEF621 21.5%, #54E90F 100%);
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
