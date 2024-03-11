@@ -141,6 +141,7 @@ header{
 }
 
 .fuziku-info-text p a{
+  font-size: 20px;
   font-family: "Jockey One", sans-serif;
   background: linear-gradient(90deg, #FEF621 21.5%, #54E90F 100%);
   -webkit-background-clip: text;

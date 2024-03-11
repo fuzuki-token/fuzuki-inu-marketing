@@ -35,7 +35,7 @@ function Home() {
                             </div>
                             <div className="col-xl-6">
                                 <div className="fuziku-info-text">
-                                    <p>It's a guarantee that Fizuki Inu will outshine other regular coins. What's your smartest choice? Do you want to stand out in the world of coins? Take a look at our <a href="javascript:;">Fuzuki Inu, - The Shiba Kanji!</a></p>
+                                    <p>Invest and develop compassion with Fuzuki Inu to ensure a brighter tomorrow. Hold with conviction, sprinting towards success with <br/> <a href="javascript:;">Fuzuki Inu.</a></p>
                                 </div>
                             </div>
                         </div>
@@ -47,8 +47,7 @@ function Home() {
                     <div className="row align-items-center">
                         <div className="col-xl-7">
                             <div className="desclaimer-text">
-                                <p className="mb-3"><span>Disclaimer:</span> The presence of fox images with Fuzuki Inu represents the creativity and customization that motivate our blockchain initiative.</p>
-                                <p>There are no actual, real, or mythical foxes involved. Fuzuki Inu is our way of exploring digital innovation and building a sense of unity.</p>
+                                <p className="mb-3"><span>Disclaimer:</span> The use of fox symbols alongside Fuzuki Inu represents our commitment to creativity and personalization in our blockchain project. It is important to note that there are no real, mythical, or physical foxes involved with our project. Fuzuki Inu is our platform for researching digital innovation and building a strong community spirit.</p>
                             </div>
                         </div>
                         <div className="col-xl-5 d-flex justify-content-end">
