@@ -6,7 +6,7 @@ import BtnImg from "../assets/images/buy-now.png"
 
 import IcFacebook from "../assets/images/icons/ic-facebook.svg"
 import IcTwitter from "../assets/images/icons/ic-twitter.svg"
-import IcLinkedin from "../assets/images/icons/ic-linkedin.svg"
+import IcTelegram from "../assets/images/icons/ic-telegram.svg"
 import IcInstagram from "../assets/images/icons/ic-instagram.svg"
 
 function Home() {
@@ -58,6 +58,9 @@ function Home() {
                                     </li>
                                     <li>
                                         <a href="https://twitter.com/Fuzuki_Inu"><img src={IcTwitter} alt="twitter icon" /></a>
+                                    </li>
+                                    <li>
+                                        <a href="https://t.me/fuzukitoken"><img src={IcTelegram} alt="Telegram icon" /></a>
                                     </li>
                                     <li>
                                         <a href="https://www.instagram.com/fuzuki.inu/"><img src={IcInstagram} alt="instagram icon" /></a>
