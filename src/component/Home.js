@@ -54,13 +54,10 @@ function Home() {
                             <div className="footer-social">
                                 <ul>
                                     <li>
-                                        <a href="https://www.facebook.com/profile.php?id=61556838222899&mibextid=LQQJ4d"><img src={IcFacebook} alt="facebook icon" /></a>
+                                        <a href="https://m.facebook.com/fuzuki.inu"><img src={IcFacebook} alt="facebook icon" /></a>
                                     </li>
                                     <li>
                                         <a href="https://twitter.com/Fuzuki_Inu"><img src={IcTwitter} alt="twitter icon" /></a>
-                                    </li>
-                                    <li>
-                                        <a href="https://www.linkedin.com/company/fuzuki-inu/"><img src={IcLinkedin} alt="linkedin icon" /></a>
                                     </li>
                                     <li>
                                         <a href="https://www.instagram.com/fuzuki.inu/"><img src={IcInstagram} alt="instagram icon" /></a>
