@@ -23,7 +23,7 @@ function Home() {
                 <div className="container">
                     <div className="fuziku-info-content">
                         <div className="row">
-                            <div className="col-xl-6 ">
+                            <div className="col-md-6">
                                 <div className="fuziku-info-media">
                                     <div className="media-img">
                                         <img src={FuzikuMedia} alt="fuziku media" />
@@ -33,7 +33,7 @@ function Home() {
                                     </a>
                                 </div>
                             </div>
-                            <div className="col-xl-6">
+                            <div className="col-md-6">
                                 <div className="fuziku-info-text">
                                     <p>Invest and develop compassion with Fuzuki Inu to ensure a brighter tomorrow. Hold with conviction, sprinting towards success with <br/> <a href="javascript:;">Fuzuki Inu.</a></p>
                                 </div>
