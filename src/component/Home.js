@@ -35,7 +35,8 @@ function Home() {
                             </div>
                             <div className="col-md-6">
                                 <div className="fuziku-info-text">
-                                    <p>Invest and develop compassion with Fuzuki Inu to ensure a brighter tomorrow. Hold with conviction, sprinting towards success with <br/> <a href="javascript:;">Fuzuki Inu.</a></p>
+                                    <p>Invest and develop compassion with Fuzuki Inu to ensure a brighter tomorrow. Hold with conviction, sprinting towards success with <br/> <span className="brand">Fuzuki Inu: The shiba kanji</span>
+                                    <a href="https://fuzuki-s3.s3.amazonaws.com/fuzuki-doc/Fuzuki+Inu+(1).pdf" className="whitepaper-link">Whitepaper</a></p>
                                 </div>
                             </div>
                         </div>
@@ -63,7 +64,7 @@ function Home() {
                                         <a href="https://t.me/fuzukitoken"><img src={IcTelegram} alt="Telegram icon" /></a>
                                     </li>
                                     <li>
-                                        <a href="https://www.instagram.com/fuzuki.inu/"><img src={IcInstagram} alt="instagram icon" /></a>
+                                        <a href="https://www.instagram.com/fuzukiinu5/"><img src={IcInstagram} alt="instagram icon" /></a>
                                     </li>
                                 </ul>
                             </div>

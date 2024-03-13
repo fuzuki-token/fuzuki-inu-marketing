@@ -141,7 +141,7 @@ header{
   color: #fff;
 }
 
-.fuziku-info-text p a{
+.fuziku-info-text p .brand{
   font-size: 20px;
   font-family: "Jockey One", sans-serif;
   background: linear-gradient(90deg, #FEF621 21.5%, #54E90F 100%);
@@ -150,6 +150,22 @@ header{
   background-clip: text;
   text-fill-color: transparent;
 }
+
+.whitepaper-link{
+  padding: 5px 10px;
+    background: linear-gradient(90deg, #FEF621 21.5%, #54E90F 100%);
+    font-size: 15px;
+    color: #000;
+    font-weight: 700;
+    border-radius: 8px;
+    display: inline-block;
+    margin-left: 10px;
+}
+
+.whitepaper-link:hover{
+  color: #000;
+}
+
 
 footer{
   padding: 20px 0;
