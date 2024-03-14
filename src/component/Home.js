@@ -8,6 +8,7 @@ import IcFacebook from "../assets/images/icons/ic-facebook.svg"
 import IcTwitter from "../assets/images/icons/ic-twitter.svg"
 import IcTelegram from "../assets/images/icons/ic-telegram.svg"
 import IcInstagram from "../assets/images/icons/ic-instagram.svg"
+import IcYoutube from "../assets/images/icons/ic-youtube.svg"
 import IcReddit from "../assets/images/icons/ic-reddit.svg"
 
 function Home() {
@@ -66,6 +67,9 @@ function Home() {
                                     </li>
                                     <li>
                                         <a href="https://www.instagram.com/fuzukiinu5/"><img src={IcInstagram} alt="instagram icon" /></a>
+                                    </li>
+                                    <li>
+                                        <a href=" https://www.youtube.com/@FuzukiArt"><img src={IcYoutube} alt="Youtube icon" /></a>
                                     </li>
                                     <li>
                                         <a href=" https://www.reddit.com/user/fuzuki_Inu/"><img src={IcReddit} alt="Reddit icon" /></a>
