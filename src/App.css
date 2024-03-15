@@ -78,7 +78,7 @@ p {
 .home-wrapper{
   width: 100%;
   min-height: 100vh;
-  background-image: url("./assets/images/bg.png");
+  background-image: url("./assets/images/bg2.png");
   background-repeat: no-repeat;
   background-size: cover;
 }
@@ -105,18 +105,6 @@ header{
   position: absolute;
   right: 0;
   top: -45px;
-}
-
-.fuziku-info .fuziku-info-content::after{
-  content: "";
-  width: 100%;
-  height: 2px;
-  display: block;
-  background-image: url("./assets/images/icons/line-2.png");
-  background-repeat: no-repeat;
-  position: absolute;
-  right: 0;
-  bottom: 0;
 }
 
 .fuziku-info-media{
@@ -166,6 +154,90 @@ header{
   color: #000;
 }
 
+
+/*-----------------------------------
+# Road Map section CSS
+------------------------------------*/
+.section-title{
+  margin-bottom: 40px;
+}
+.section-title h4{
+  font-size: 55px;
+  font-family: "Jockey One", sans-serif;
+  background: linear-gradient(90deg, #FEF621 21.5%, #54E90F 100%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
+  text-fill-color: transparent;
+  position: relative;
+  text-align: center;
+  padding-bottom: 10px;
+}
+
+.section-title h4::before{
+  content: url("./assets/images/icons/border-line.png");
+  position: absolute;
+  bottom: -15px;
+  left: 50%;
+  transform: translateX(-50%);
+
+}
+
+.road-map-stages-list > li{
+  padding-top: 30px;
+  padding-bottom: 40px;
+  position: relative;
+}
+
+.road-map-stages-list >  li::after{
+    content: "";
+    width: calc(100% - 12px);
+    max-width: 100%;
+    height: 2px;
+    display: block;
+    background-image: url("./assets/images/icons/line-3.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: absolute;
+    left: 0;
+    bottom: 0;
+}
+
+.road-map-stages-list >  li:nth-child(even):after{
+    transform: rotate(180deg);
+    background-image: url("./assets/images/icons/line-3.png");
+    left: unset;
+    right: 0;
+} 
+
+.road-map-stage h4{
+  font-size: 40px;
+  font-family: "Jockey One", sans-serif;
+  padding-bottom: 15px;
+  color: #71E512;
+}
+
+.road-map-stages-list >  li:nth-child(even) .road-map-stage h4{
+  color: #FEF621;
+}
+
+.road-map-stage > ul li{
+  font-size: 18px;
+  line-height: 26px;
+  color: #fff;
+  position: relative;
+  padding-left: 36px;
+  margin-bottom: 18px;
+}
+.road-map-stage ul li:last-child{
+  margin-bottom: 0;
+}
+.road-map-stage ul li::before{
+  content: url("./assets/images/icons/ic-check.svg");
+  position: absolute;
+  left: 0;
+  top: 2px;
+}
 
 footer{
   padding: 20px 0;
@@ -219,5 +291,16 @@ footer{
     max-width: 100%;
     margin: 0;
     margin-top: 20px;
+  }
+
+  .section-title h4{
+    font-size: 42px;
+  }
+  .road-map-stage h4{
+    font-size: 30px;
+  }
+  .road-map-stage > ul li{
+    font-size: 16px;
+    line-height: 24px;
   }
 }
