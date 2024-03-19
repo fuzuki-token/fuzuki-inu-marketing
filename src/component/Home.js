@@ -22,7 +22,7 @@ function Home() {
             <header>
                 <div className="container">
                     <a href="javascript:;" className="brand-logo">
-                        <img src={BrandLogo} alt="logo" />
+                        <img src={BrandLogo} alt="Fuzuki Inu Logo" />
                     </a>
                 </div>
             </header>
@@ -33,10 +33,10 @@ function Home() {
                             <div className="col-md-6">
                                 <div className="fuziku-info-media">
                                     <div className="media-img">
-                                        <img src={FuzikuMedia} alt="fuziku media" />
+                                        <img src={FuzikuMedia} alt="Fuzuki Inu" />
                                     </div>
                                     <a href="javacript:;" className="buy-now-btn">
-                                        <img src={BtnImg} alt="button" />
+                                        <img src={BtnImg} alt="buy now button" />
                                     </a>
                                 </div>
                             </div>
@@ -61,7 +61,7 @@ function Home() {
                         <li className="row">
                             <div className="col-lg-4">
                                 <div className="stage-media mb-4">
-                                    <img src={StageImg1} alt="StageImg1" />
+                                    <img src={StageImg1} alt="Fuzuki Inu Launch" />
                                 </div>
                             </div>
                             <div className="col-lg-8">
@@ -80,7 +80,7 @@ function Home() {
                         <li className="row flex-lg-row-reverse">
                             <div className="col-lg-4 text-lg-end">
                                 <div className="stage-media mb-4">
-                                    <img src={StageImg2} alt="StageImg2" />
+                                    <img src={StageImg2} alt="Fuzuki Inu CEX listing" />
                                 </div>
                             </div>
                             <div className="col-lg-8">
@@ -100,7 +100,7 @@ function Home() {
                         <li className="row">
                             <div className="col-lg-4">
                                 <div className="stage-media mb-4">
-                                    <img src={StageImg3} alt="StageImg3" />
+                                    <img src={StageImg3} alt="Fuzuki Inu DEX launch" />
                                 </div>
                             </div>
                             <div className="col-lg-8">
