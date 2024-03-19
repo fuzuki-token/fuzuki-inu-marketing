@@ -1,28 +1,10 @@
-import BrandLogo from "../assets/images/logo.png"
-
-import FuzikuMedia from "../assets/images/media1.png"
-
-import BtnImg from "../assets/images/buy-now.png"
-
-import IcFacebook from "../assets/images/icons/ic-facebook.svg"
-import IcTwitter from "../assets/images/icons/ic-twitter.svg"
-import IcTelegram from "../assets/images/icons/ic-telegram.svg"
-import IcInstagram from "../assets/images/icons/ic-instagram.svg"
-import IcYoutube from "../assets/images/icons/ic-youtube.svg"
-import IcReddit from "../assets/images/icons/ic-reddit.svg"
-
-
-import StageImg1 from "../assets/images/stage-1.png"
-import StageImg2 from "../assets/images/stage-2.png"
-import StageImg3 from "../assets/images/stage-3.png"
-
 function Home() {
     return (
         <div className="home-wrapper">
             <header>
                 <div className="container">
                     <a href="javascript:;" className="brand-logo">
-                        <img src={BrandLogo} alt="Fuzuki Inu Logo" />
+                        <img src="/images/fuzuki_inu_logo.png" alt="Fuzuki Inu Logo" />
                     </a>
                 </div>
             </header>
@@ -33,10 +15,10 @@ function Home() {
                             <div className="col-md-6">
                                 <div className="fuziku-info-media">
                                     <div className="media-img">
-                                        <img src={FuzikuMedia} alt="Fuzuki Inu" />
+                                        <img src="/images/fuzuki_inu.png" alt="Fuzuki Inu" />
                                     </div>
                                     <a href="javacript:;" className="buy-now-btn">
-                                        <img src={BtnImg} alt="buy now button" />
+                                        <img src="/images/buy-now.png" alt="buy now button" />
                                     </a>
                                 </div>
                             </div>
@@ -61,7 +43,7 @@ function Home() {
                         <li className="row">
                             <div className="col-lg-4">
                                 <div className="stage-media mb-4">
-                                    <img src={StageImg1} alt="Fuzuki Inu Launch" />
+                                    <img src="/images/Fuzuki_Inu_Launch.png" alt="Fuzuki Inu Launch" />
                                 </div>
                             </div>
                             <div className="col-lg-8">
@@ -80,7 +62,7 @@ function Home() {
                         <li className="row flex-lg-row-reverse">
                             <div className="col-lg-4 text-lg-end">
                                 <div className="stage-media mb-4">
-                                    <img src={StageImg2} alt="Fuzuki Inu CEX listing" />
+                                    <img src="/images/Fuzuki_Inu_CEX_listing.png" alt="Fuzuki Inu CEX listing" />
                                 </div>
                             </div>
                             <div className="col-lg-8">
@@ -100,7 +82,7 @@ function Home() {
                         <li className="row">
                             <div className="col-lg-4">
                                 <div className="stage-media mb-4">
-                                    <img src={StageImg3} alt="Fuzuki Inu DEX launch" />
+                                    <img src="/images/Fuzuki_Inu_DEX_launch.png" alt="Fuzuki Inu DEX launch" />
                                 </div>
                             </div>
                             <div className="col-lg-8">
@@ -132,22 +114,22 @@ function Home() {
                             <div className="footer-social">
                                 <ul>
                                     <li>
-                                        <a target="_blank" href="https://m.facebook.com/fuzuki.inu"><img src={IcFacebook} alt="facebook icon" /></a>
+                                        <a target="_blank" href="https://m.facebook.com/fuzuki.inu"><img src="/images/icons/ic-facebook.svg" alt="facebook icon" /></a>
                                     </li>
                                     <li>
-                                        <a target="_blank" href="https://twitter.com/Fuzuki_Inu"><img src={IcTwitter} alt="twitter icon" /></a>
+                                        <a target="_blank" href="https://twitter.com/Fuzuki_Inu"><img src="/images/icons/ic-twitter.svg" alt="twitter icon" /></a>
                                     </li>
                                     <li>
-                                        <a target="_blank" href="https://t.me/fuzukitoken"><img src={IcTelegram} alt="Telegram icon" /></a>
+                                        <a target="_blank" href="https://t.me/fuzukitoken"><img src="/images/icons/ic-telegram.svg" alt="Telegram icon" /></a>
                                     </li>
                                     {/* <li>
-                                        <a target="_blank" href="https://www.instagram.com/fuzukiinu5/"><img src={IcInstagram} alt="instagram icon" /></a>
+                                        <a target="_blank" href="https://www.instagram.com/fuzukiinu5/"><img src="/images/icons/ic-instagram.svg" alt="instagram icon" /></a>
                                     </li> */}
                                     <li>
-                                        <a target="_blank" href=" https://www.youtube.com/@FuzukiArt"><img src={IcYoutube} alt="Youtube icon" /></a>
+                                        <a target="_blank" href=" https://www.youtube.com/@FuzukiArt"><img src="/images/icons/ic-youtube.svg" alt="Youtube icon" /></a>
                                     </li>
                                     <li>
-                                        <a target="_blank" href=" https://www.reddit.com/user/fuzuki_Inu/"><img src={IcReddit} alt="Reddit icon" /></a>
+                                        <a target="_blank" href=" https://www.reddit.com/user/fuzuki_Inu/"><img src="/images/icons/ic-reddit.svg" alt="Reddit icon" /></a>
                                     </li>
                                 </ul>
                             </div>
