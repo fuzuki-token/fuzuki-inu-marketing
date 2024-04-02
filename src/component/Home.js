@@ -122,9 +122,9 @@ function Home() {
                                     <li>
                                         <a target="_blank" href="https://t.me/fuzukitoken"><img src="/images/icons/ic-telegram.svg" alt="Telegram icon" /></a>
                                     </li>
-                                    {/* <li>
-                                        <a target="_blank" href="https://www.instagram.com/fuzukiinu5/"><img src="/images/icons/ic-instagram.svg" alt="instagram icon" /></a>
-                                    </li> */}
+                                    <li>
+                                        <a target="_blank" href="https://www.instagram.com/fuzukiinu/"><img src="/images/icons/ic-instagram.svg" alt="instagram icon" /></a>
+                                    </li>
                                     <li>
                                         <a target="_blank" href=" https://www.youtube.com/@FuzukiArt"><img src="/images/icons/ic-youtube.svg" alt="Youtube icon" /></a>
                                     </li>
