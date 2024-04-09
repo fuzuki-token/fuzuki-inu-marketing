@@ -112,10 +112,36 @@ header{
   margin-top: 10px;
 }
 
-.fuziku-info-media .buy-now-btn{
+.buy-now-btn{
+  display: inline-block;
+  font-family: "Jockey One", sans-serif;
+  font-size: 22px;
+  font-weight: 600;
+  text-transform: uppercase;
+  background: linear-gradient(180deg, #FAF600 0%, #4CEE00 100%);
+  padding: 12px 15px;
+  min-width: 165px;
+  border-radius: 10px;
+  text-align: center;
+}
+
+.fuziku-info-media .buy-now-btn-wrapper{
   position: absolute;
-  left: 372px;
+  left: 393px;
   top: 31px;
+}
+.fuziku-info-media .buy-now-btn-wrapper .buy-now-btn{
+  position: relative;
+}
+.fuziku-info-media .buy-now-btn-wrapper .buy-now-btn::before{
+  content: url("../public/images/icons/ic-equal.png");
+  position: absolute;
+  left: -27px;
+  top: 50%;
+  transform: translateY(-50%);
+}
+.fuziku-info-media .buy-now-btn-wrapper .buy-now-btn:first-child{
+  margin-bottom: 20px;
 }
 
 .fuziku-info-text{
@@ -279,10 +305,21 @@ footer{
   font-family: "Jockey One", sans-serif;
 }
 
+@media only screen and (max-width:1199px){
+  .fuziku-info-media .buy-now-btn-wrapper{
+    top: 50%;
+    transform: translateY(-50%);
+    left: 382px;
+  }
+}
 
 @media only screen and (max-width:991px){
   .fuziku-info .fuziku-info-content::before{
     top: -15px;
+  }
+
+  .fuziku-info-media .buy-now-btn-wrapper{
+    left: 343px;
   }
 }
 
@@ -302,5 +339,24 @@ footer{
   .road-map-stage > ul li{
     font-size: 16px;
     line-height: 24px;
+  }
+
+  .fuziku-info-media .buy-now-btn-wrapper{
+    position: static;
+    transform: translateY(0);
+  }
+
+  .fuziku-info-media .media-img{
+    text-align: center;
+  }
+  .fuziku-info-media .buy-now-btn-wrapper .buy-now-btn::before{
+    display: none;
+  }
+  .fuziku-info-media .buy-now-btn-wrapper{
+    margin-top: 20px;
+    text-align: center;
+  }
+  .fuziku-info-media .buy-now-btn-wrapper .buy-now-btn{
+    margin: 0 10px;
   }
 }

@@ -17,9 +17,14 @@ function Home() {
                                     <div className="media-img">
                                         <img src="/images/fuzuki_inu.png" alt="Fuzuki Inu" />
                                     </div>
-                                    <a href="javacript:;" className="buy-now-btn">
-                                        <img src="/images/buy-now.png" alt="buy now button" />
-                                    </a>
+                                    <div className="buy-now-btn-wrapper">
+                                        <a href="javacript:;" className="buy-now-btn">
+                                            Buy Solana
+                                        </a>
+                                        <a href="javacript:;" className="buy-now-btn">
+                                            Buy Ethereum
+                                        </a>
+                                    </div>
                                 </div>
                             </div>
                             <div className="col-md-6">
