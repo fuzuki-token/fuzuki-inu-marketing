@@ -35,14 +35,14 @@ function Home() {
                       className="buy-now-btn"
                       onClick={handleBuySolana}
                     >
-                      Buy Solana
+                      Buy  on Solana
                     </a>
                     <a
                       href="https://eth.fuzuki.io/"
                       className="buy-now-btn"
                       onClick={handleBuyEthereum}
                     >
-                      Buy Ethereum
+                      Buy On Ethereum
                     </a>
                   </div>
                 </div>
