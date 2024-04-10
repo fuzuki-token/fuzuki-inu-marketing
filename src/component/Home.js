@@ -1,4 +1,13 @@
+import { useNavigate } from 'react-router-dom';
 function Home() {
+    const navigate = useNavigate();
+    const handleBuySolana = () => {
+        navigate('/sol'); // The route you want to navigate to
+    };
+
+    const handleBuyEthereum = () => {
+        navigate('/eth'); // The route you want to navigate to
+    };
     return (
         <div className="home-wrapper">
             <header>
@@ -18,12 +27,12 @@ function Home() {
                                         <img src="/images/fuzuki_inu.png" alt="Fuzuki Inu" />
                                     </div>
                                     <div className="buy-now-btn-wrapper">
-                                        <a href="javacript:;" className="buy-now-btn">
-                                            Buy Solana
-                                        </a>
-                                        <a href="javacript:;" className="buy-now-btn">
-                                            Buy Ethereum
-                                        </a>
+                                    <a href="#" className="buy-now-btn" onClick={handleBuySolana}>
+                Buy Solana
+            </a>
+            <a href="#" className="buy-now-btn" onClick={handleBuyEthereum}>
+                Buy Ethereum
+            </a>
                                     </div>
                                 </div>
                             </div>
