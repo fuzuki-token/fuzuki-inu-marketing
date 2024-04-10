@@ -9,8 +9,8 @@ import ComingSoonSolana from "./component/ComingSoonSolana";
 function App() {
   return (
     <div className="App">
-        {/* <Home /> */}
-        <ComingSoonSolana/>
+        <Home />
+        {/* <ComingSoonSolana/> */}
     </div>
   );
 }
