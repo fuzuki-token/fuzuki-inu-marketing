@@ -34,6 +34,7 @@ function Home() {
                       href="#"
                       className="buy-now-btn"
                       onClick={handleBuySolana}
+                      target="_blank"
                     >
                       Buy  on Solana
                     </a>
@@ -41,6 +42,7 @@ function Home() {
                       href="https://eth.fuzuki.io/"
                       className="buy-now-btn"
                       onClick={handleBuyEthereum}
+                      target="_blank"
                     >
                       Buy On Ethereum
                     </a>
