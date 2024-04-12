@@ -239,7 +239,7 @@ function Home() {
                       />
                     </a>
                   </li>
-                  <li>
+                  {/* <li>
                     <a
                       target="_blank"
                       href=" https://www.reddit.com/user/fuzuki_Inu/"
@@ -249,7 +249,7 @@ function Home() {
                         alt="Reddit icon"
                       />
                     </a>
-                  </li>
+                  </li> */}
                 </ul>
               </div>
             </div>
