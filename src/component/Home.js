@@ -8,7 +8,10 @@ function Home() {
   const handleBuyEthereum = (event) => {
     // Optional: Prevent default if conditional logic is needed
     event.preventDefault();
-    window.location.href = "https://eth.fuzuki.io/";
+    window.open(
+      'https://eth.fuzuki.io/',
+      '_blank'
+    );
     // navigate('/eth'); // The route you want to navigate to
   };
   return (
@@ -30,14 +33,14 @@ function Home() {
                     <img src="/images/fuzuki_inu.png" alt="Fuzuki Inu" />
                   </div>
                   <div className="buy-now-btn-wrapper">
-                    <a
+                    {/* <a
                       href="#"
                       className="buy-now-btn"
                       onClick={handleBuySolana}
                       target="_blank"
                     >
                       Buy  on Solana
-                    </a>
+                    </a> */}
                     <a
                       href="https://eth.fuzuki.io/"
                       className="buy-now-btn"
