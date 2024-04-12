@@ -18,7 +18,7 @@ function Home() {
     <div className="home-wrapper">
       <header>
         <div className="container">
-          <a href="https://fuzuki.io/" className="brand-logo" target="_blank">
+          <a href="https://fuzuki.io/" className="brand-logo">
             <img src="/images/fuzuki_inu_logo.png" alt="Fuzuki Inu Logo" />
           </a>
         </div>
