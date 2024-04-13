@@ -3,47 +3,46 @@ name: CI/CD Pipeline for React Application
 on:
   push:
     branches:
-      - staging
+      - staging  # Trigger on pushes to the main branch; adjust as needed
 
 jobs:
   build-and-deploy:
-    runs-on: ubuntu-latest
+    runs-on: ubuntu-latest  # Specifies the runner environment
     steps:
     - name: Checkout code
-      uses: actions/checkout@v2
+      uses: actions/checkout@v2  # Checks out the repository content into the runner
 
     - name: Set up Node.js
       uses: actions/setup-node@v2
       with:
-        node-version: 'v18.17.0'  # Adjust this as needed
+        node-version: 'v18.17.0'  # Specify your Node.js version here
 
     - name: Install npm dependencies
-      run: npm install -f
+      run: npm install -f  # Install all dependencies, forcing a refresh
 
     - name: Build the React application
       run: npm run build
-
-    - name: Archive production artifacts
-      uses: actions/upload-artifact@v2
-      with:
-        name: build
-        path: build/
+      env:
+        CI: true  # Set CI environment variable to true
 
     - name: Deploy to server
-      uses: appleboy/scp-action@master
-      with:
-        host: ${{ secrets.SERVER_IP }}
-        username: ${{ secrets.SERVER_USER }}
-        key: ${{ secrets.SSH_PRIVATE_KEY }}
-        source: "build/"
-        target: "/home/ubuntu/fuzuki-inu-marketing/build"
-
-    - name: Restart PM2 process
       uses: appleboy/ssh-action@master
       with:
         host: ${{ secrets.SERVER_IP }}
         username: ${{ secrets.SERVER_USER }}
         key: ${{ secrets.SSH_PRIVATE_KEY }}
         script: |
+          # Navigate to the project directory
           cd /home/ubuntu/fuzuki-inu-marketing
+          
+          # Pull the latest changes from the repository
+          git pull origin staging
+          
+          # Install dependencies
+          npm install -f
+          
+          # Build the project
+          npm run build
+          
+          # Restart the PM2 process
           pm2 restart 0
