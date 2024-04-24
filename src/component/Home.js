@@ -24,7 +24,7 @@ function Home() {
       // Render a countdown
       return (
         <div className="Hour">
-          {zeroPad(hours)}:{zeroPad(minutes)}:{seconds}
+          {zeroPad(hours)}:{zeroPad(minutes)}:{zeroPad(seconds)}
         </div>
       );
     }
@@ -67,7 +67,7 @@ function Home() {
                     </a>
                   </div>
                 </div>
-                <Countdown renderer={renderer} date={"2024-04-25T01:02:03"} />,
+                <Countdown renderer={renderer} date={"2024-04-25T09:02:09"} />,
               </div>
               <div className="col-md-6">
                 <div className="fuziku-info-text">
