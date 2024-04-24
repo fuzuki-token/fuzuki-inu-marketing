@@ -71,7 +71,7 @@ function Home() {
         <div className="container">
           <div className="fuziku-info-content">
             <div className="row">
-              <div className="col-md-6 col-lg-4">
+              <div className="col-md-6">
                 <div className="fuziku-info-media">
                   <div className="media-img">
                     <img src="/images/fuzuki_inu.png" alt="Fuzuki Inu" />
@@ -85,18 +85,18 @@ function Home() {
                     >
                       Buy  on Solana
                     </a> */}
-                    {/* <a
+                    <a
                       href="https://eth.fuzuki.io/"
                       className="buy-now-btn"
                       onClick={handleBuyEthereum}
                       target="_blank"
                     >
-                      Buy On Ethereum
-                    </a> */}
+                      Buy On Uniswap
+                    </a>
                   </div>
                 </div>
               </div>
-              <div className="col-md-6 col-lg-8 d-flex flex-column justify-content-between ps-lg-4">
+              <div className="col-md-6 d-flex flex-column justify-content-between ps-lg-4">
                 <div className="fuziku-info-text">
                   <p>
                     Invest and develop compassion with Fuzuki Inu to ensure a
@@ -115,7 +115,7 @@ function Home() {
                 <div className="countdown-timer">
                   <h4>Uniswap Listing in</h4>
                   <Countdown renderer={renderer} date={"2024-04-25T14:45:09"} />
-                  <p>Contract Address: #df4d5gfgdf5gf4gdf45gf5fg4gffffd55</p>
+                  <p>Contract Address: <button className="copy-btn">#df4d5gfgdf5gf4gdf45gf5fg4gffffd55</button></p>
                 </div>
               </div>
             </div>

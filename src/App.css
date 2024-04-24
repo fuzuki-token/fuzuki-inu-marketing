@@ -301,8 +301,10 @@ footer{
 }
 
 .countdown-timer h4{
-  font-size: 22px;
-  font-weight: 700;
+  font-family: "Jockey One", sans-serif;
+  font-size: 38px;
+  letter-spacing: 2px;
+  font-weight: 800;
   color: #fff;
   padding-bottom: 20px;
 }
@@ -316,6 +318,15 @@ footer{
 
 .countdown-timer p{
   color: #fff;
+  font-weight: 700;
+}
+
+.copy-btn{
+  all: unset;
+  padding: 5px 10px;
+  background: linear-gradient(90deg, #FEF621 21.5%, #54E90F 100%);
+  border-radius: 8px;
+  color: #000;
 }
 
 
