@@ -1,4 +1,6 @@
 import { useNavigate } from "react-router-dom";
+import Countdown, { zeroPad } from "react-countdown";
+
 function Home() {
   const navigate = useNavigate();
   const handleBuySolana = () => {
@@ -8,12 +10,26 @@ function Home() {
   const handleBuyEthereum = (event) => {
     // Optional: Prevent default if conditional logic is needed
     event.preventDefault();
-    window.open(
-      'https://eth.fuzuki.io/',
-      '_blank'
-    );
+    window.open("https://eth.fuzuki.io/", "_blank");
     // navigate('/eth'); // The route you want to navigate to
   };
+  const Completionist = () => <span>We are launched!</span>;
+
+  // Renderer callback with condition
+  const renderer = ({ hours, minutes, seconds, completed }) => {
+    if (completed) {
+      // Render a completed state
+      return <Completionist />;
+    } else {
+      // Render a countdown
+      return (
+        <div className="Hour">
+          {zeroPad(hours)}:{zeroPad(minutes)}:{seconds}
+        </div>
+      );
+    }
+  };
+
   return (
     <div className="home-wrapper">
       <header>
@@ -51,6 +67,7 @@ function Home() {
                     </a>
                   </div>
                 </div>
+                <Countdown renderer={renderer} date={"2024-04-25T01:02:03"} />,
               </div>
               <div className="col-md-6">
                 <div className="fuziku-info-text">
