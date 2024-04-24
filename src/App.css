@@ -327,6 +327,9 @@ footer{
   background: linear-gradient(90deg, #FEF621 21.5%, #54E90F 100%);
   border-radius: 8px;
   color: #000;
+  margin-top: 5px;
+  display: inline-block;
+  cursor: pointer;
 }
 
 .client-testimonial{
@@ -372,6 +375,11 @@ footer{
   max-width: 22px;
   display: inline-block;
   margin-left: 6px;
+}
+
+.fuziku-info-text{
+  max-width: 400px;
+  margin-left: auto;
 }
 
 @media only screen and (max-width:1199px){
