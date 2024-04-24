@@ -45,17 +45,17 @@ function Home() {
         settings: {
           slidesToShow: 2,
           slidesToScroll: 2,
-          initialSlide: 2
-        }
+          initialSlide: 2,
+        },
       },
       {
         breakpoint: 479,
         settings: {
           slidesToShow: 1,
-          slidesToScroll: 1
-        }
-      }
-    ]
+          slidesToScroll: 1,
+        },
+      },
+    ],
   };
 
   return (
@@ -115,8 +115,20 @@ function Home() {
                 <div className="countdown-timer">
                   <h4>Uniswap Listing in</h4>
                   <Countdown renderer={renderer} date={"2024-04-25T14:45:09"} />
-                  <p>Contract Address: <span className="copy-btn">#df4d5gfgdf5gf4gdf45gf5fg4gffffd55</span>
-                  <span className="copy-code"><img src="/images/icons/icCopy.png" alt="copy icon" /></span></p>
+                  <p>
+                    Contract Address:{" "}
+                    <button
+                      onClick={() => {
+                        navigator.clipboard.writeText(
+                          "#df4d5gfgdf5gf4gdf45gf5fg4gffffd55"
+                        );
+                      }}
+                      className="copy-btn"
+                    >
+                      #df4d5gfgdf5gf4gdf45gf5fg4gffffd55
+                      <i class="fa fa-clone" aria-hidden="true"></i>
+                    </button>
+                  </p>
                 </div>
               </div>
             </div>
@@ -126,36 +138,9 @@ function Home() {
 
       <section className="client-testimonial">
         <div className="container">
-        <Slider {...settings}>
-          <div className="testimonial-box">
-            <img src="/images/testimonial-1.png" alt="customer review" />
-            <img src="/images/testimonial-2.png" alt="customer review" />
-          </div>
-          <div className="testimonial-box">
-            <img src="/images/testimonial-3.png" alt="customer review" />
-            <img src="/images/testimonial-4.png" alt="customer review" />
-          </div>
-          <div className="testimonial-box">
-            <img src="/images/testimonial-5.png" alt="customer review" />
-            <img src="/images/testimonial-6.png" alt="customer review" />
-          </div>
-          <div className="testimonial-box">
-            <img src="/images/testimonial-7.png" alt="customer review" />
-            <img src="/images/testimonial-9.png" alt="customer review" />
-          </div>
-          <div className="testimonial-box">
-            <img src="/images/testimonial-8.png" alt="customer review" />
-            <img src="/images/testimonial-10.png" alt="customer review" />
-          </div>
-          <div className="testimonial-box">
-            <img src="/images/testimonial-11.png" alt="customer review" />
-            <img src="/images/testimonial-12.png" alt="customer review" />
-          </div>
-          <div className="testimonial-box">
-            <img src="/images/testimonial-13.png" alt="customer review" />
-            <img src="/images/testimonial-14.png" alt="customer review" />
-          </div>
-        </Slider>
+          <Slider {...settings}>
+            <div className="testimonial-box-wrap"></div>
+          </Slider>
         </div>
       </section>
 
