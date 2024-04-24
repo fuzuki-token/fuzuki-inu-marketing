@@ -145,7 +145,7 @@ header{
 }
 
 .fuziku-info-text{
-  max-width: 435px;
+  max-width: 635px;
   margin-left: auto;
 }
 
@@ -391,6 +391,12 @@ footer{
 }
 .Hour{
   color:white;
-  font-size: 30px;
+  font-size: 50px;
   font-weight: 900;
+}
+
+.Counter-Heading{
+  font-size: 20px;
+  color: white;
+  font-weight: 700;
 }

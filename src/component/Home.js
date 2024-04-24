@@ -67,7 +67,6 @@ function Home() {
                     </a> */}
                   </div>
                 </div>
-                <Countdown renderer={renderer} date={"2024-04-25T09:02:09"} />,
               </div>
               <div className="col-md-6">
                 <div className="fuziku-info-text">
@@ -84,6 +83,11 @@ function Home() {
                       Whitepaper
                     </a>
                   </p>
+                </div>
+                <div className="Count-Timer">
+                  <h5 className="Counter-Heading">Uniswap Listing in</h5>
+                  <Countdown renderer={renderer} date={"2024-04-25T09:02:09"} />
+                  
                 </div>
               </div>
             </div>
