@@ -39,6 +39,7 @@ function Home() {
           </a>
         </div>
       </header>
+      <h1>Hello world</h1>
       <section className="fuziku-info">
         <div className="container">
           <div className="fuziku-info-content">
