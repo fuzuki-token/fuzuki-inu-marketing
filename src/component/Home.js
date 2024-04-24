@@ -45,17 +45,17 @@ function Home() {
         settings: {
           slidesToShow: 2,
           slidesToScroll: 2,
-          initialSlide: 2
-        }
+          initialSlide: 2,
+        },
       },
       {
         breakpoint: 479,
         settings: {
           slidesToShow: 1,
-          slidesToScroll: 1
-        }
-      }
-    ]
+          slidesToScroll: 1,
+        },
+      },
+    ],
   };
 
   return (
@@ -115,7 +115,20 @@ function Home() {
                 <div className="countdown-timer">
                   <h4>Uniswap Listing in</h4>
                   <Countdown renderer={renderer} date={"2024-04-25T14:45:09"} />
-                  <p>Contract Address: <button className="copy-btn">#df4d5gfgdf5gf4gdf45gf5fg4gffffd55</button></p>
+                  <p>
+                    Contract Address:{" "}
+                    <button
+                      onClick={() => {
+                        navigator.clipboard.writeText(
+                          "#df4d5gfgdf5gf4gdf45gf5fg4gffffd55"
+                        );
+                      }}
+                      className="copy-btn"
+                    >
+                      #df4d5gfgdf5gf4gdf45gf5fg4gffffd55
+                      <i class="fa fa-clone" aria-hidden="true"></i>
+                    </button>
+                  </p>
                 </div>
               </div>
             </div>
@@ -125,11 +138,9 @@ function Home() {
 
       <section className="client-testimonial d-none">
         <div className="container">
-        <Slider {...settings}>
-          <div className="testimonial-box-wrap">
-              
-          </div>
-        </Slider>
+          <Slider {...settings}>
+            <div className="testimonial-box-wrap"></div>
+          </Slider>
         </div>
       </section>
 
