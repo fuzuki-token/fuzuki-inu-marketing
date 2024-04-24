@@ -13,8 +13,8 @@ function Home() {
   const handleBuyEthereum = (event) => {
     // Optional: Prevent default if conditional logic is needed
     event.preventDefault();
-    window.open("https://eth.fuzuki.io/", "_blank");
-    // navigate('/eth'); // The route you want to navigate to
+    // window.open("https://eth.fuzuki.io/", "_blank");
+    navigate('/Coming'); // The route you want to navigate to
   };
   const Completionist = () => <span>We are launched!!</span>;
 

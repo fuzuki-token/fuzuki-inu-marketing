@@ -17,7 +17,7 @@ function App() {
        <Routes>
         {/* <Home /> */}  
         <Route path="/" element={<Home />} exact />
-        <Route path="/sol" element={< ComingSoonSolana/>} />
+        <Route path="/Coming" element={< ComingSoonSolana/>} />
         <Route path="/eth" element={<ComingSoonEthereum/>} />
         {/* <ComingSoonSolana/> */}
         </Routes>
