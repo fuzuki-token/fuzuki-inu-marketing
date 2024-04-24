@@ -86,7 +86,7 @@ function Home() {
                 </div>
                 <div className="Count-Timer">
                   <h5 className="Counter-Heading">Uniswap Listing in</h5>
-                  <Countdown renderer={renderer} date={"2024-04-25T09:02:09"} />
+                  <Countdown renderer={renderer} date={"2024-04-25T14:45:09"} />
                   
                 </div>
               </div>
