@@ -1,6 +1,8 @@
 import { useNavigate } from "react-router-dom";
 import Countdown, { zeroPad } from "react-countdown";
 import Slider from "react-slick";
+import { ToastContainer, toast } from "react-toastify";
+import "react-toastify/dist/ReactToastify.css";
 
 function Home() {
   const navigate = useNavigate();
@@ -29,6 +31,17 @@ function Home() {
         </div>
       );
     }
+  };
+  const handleClick = () => {
+    navigator.clipboard
+      .writeText("0x4d088920d5D4bB74F0B1626b181f22438d255c83")
+      .then(() => {
+        toast.success("Address copied to clipboard");
+      })
+      .catch((error) => {
+        toast.error("Failed to copy text to clipboard");
+        console.error("Clipboard copy failed:", error);
+      });
   };
 
   // Slider Setting
@@ -112,22 +125,18 @@ function Home() {
                     </a>
                   </p>
                 </div>
+
                 <div className="countdown-timer">
                   <h4>Uniswap Listing in</h4>
                   <Countdown renderer={renderer} date={"2024-04-25T14:45:09"} />
                   <p>
                     Contract Address:{" "}
-                    <button
-                      onClick={() => {
-                        navigator.clipboard.writeText(
-                          "#df4d5gfgdf5gf4gdf45gf5fg4gffffd55"
-                        );
-                      }}
-                      className="copy-btn"
-                    >
-                      #df4d5gfgdf5gf4gdf45gf5fg4gffffd55
-                      <i class="fa fa-clone" aria-hidden="true"></i>
-                    </button>
+                    <span className="copy-btn">
+                      0x4d088920d5D4bB74F0B1626b181f22438d255c83{" "}
+                    </span>
+                    <span onClick={handleClick} className="copy-code">
+                      <img src="/images/icons/icCopy.png" alt="copy icon" />
+                    </span>
                   </p>
                 </div>
               </div>
@@ -136,15 +145,42 @@ function Home() {
         </div>
       </section>
 
-      <section className="client-testimonial d-none">
+      <section className="client-testimonial">
         <div className="container">
           <Slider {...settings}>
-            <div className="testimonial-box-wrap"></div>
+            <div className="testimonial-box">
+              <img src="/images/testimonial-1.png" alt="customer review" />
+              <img src="/images/testimonial-2.png" alt="customer review" />
+            </div>
+            <div className="testimonial-box">
+              <img src="/images/testimonial-3.png" alt="customer review" />
+              <img src="/images/testimonial-4.png" alt="customer review" />
+            </div>
+            <div className="testimonial-box">
+              <img src="/images/testimonial-5.png" alt="customer review" />
+              <img src="/images/testimonial-6.png" alt="customer review" />
+            </div>
+            <div className="testimonial-box">
+              <img src="/images/testimonial-7.png" alt="customer review" />
+              <img src="/images/testimonial-9.png" alt="customer review" />
+            </div>
+            <div className="testimonial-box">
+              <img src="/images/testimonial-8.png" alt="customer review" />
+              <img src="/images/testimonial-10.png" alt="customer review" />
+            </div>
+            <div className="testimonial-box">
+              <img src="/images/testimonial-11.png" alt="customer review" />
+              <img src="/images/testimonial-12.png" alt="customer review" />
+            </div>
+            <div className="testimonial-box">
+              <img src="/images/testimonial-13.png" alt="customer review" />
+              <img src="/images/testimonial-14.png" alt="customer review" />
+            </div>
           </Slider>
         </div>
       </section>
 
-      <section className="road-map">
+      <section className="road-map d-none">
         <div className="container">
           <div className="section-title">
             <h4>Road Map</h4>
@@ -330,6 +366,7 @@ function Home() {
             </div>
           </div>
         </div>
+        <ToastContainer />
       </footer>
     </div>
   );

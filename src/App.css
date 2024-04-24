@@ -329,12 +329,60 @@ footer{
   color: #000;
 }
 
+.client-testimonial{
+  padding: 40px 0;
+}
+.testimonial-box{
+  padding: 0 7.5px;
+}
+.testimonial-box img:first-child{
+  margin-bottom: 15px;
+}
+
+
+.client-testimonial .slick-arrow{
+  all: unset;
+  font-size: 0;
+  display: inline-block;
+  width: 33px;
+  height: 33px;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.client-testimonial .slick-arrow.slick-prev{
+  background-image: url("../public/images/icons/arrowPrev.svg");
+  position: absolute;
+  top: 50%;
+  left: 0;
+  transform: translateY(-50%);
+}
+.client-testimonial .slick-arrow.slick-next{
+  background-image: url("../public/images/icons/arrowNext.svg");
+  position: absolute;
+  top: 50%;
+  right: 0;
+  transform: translateY(-50%);
+}
+
+.client-testimonial .slick-slider{
+  padding: 0 40px;
+}
+
+.copy-code{
+  max-width: 22px;
+  display: inline-block;
+  margin-left: 6px;
+}
 
 @media only screen and (max-width:1199px){
   .fuziku-info-media .buy-now-btn-wrapper{
-    top: 50%;
+    top: 37%;
     transform: translateY(-50%);
     left: 382px;
+  }
+
+  .countdown-timer .Hour{
+    font-size: 80px;
   }
 }
 
