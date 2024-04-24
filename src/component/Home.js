@@ -1,5 +1,6 @@
 import { useNavigate } from "react-router-dom";
 import Countdown, { zeroPad } from "react-countdown";
+import Slider from "react-slick";
 
 function Home() {
   const navigate = useNavigate();
@@ -30,6 +31,33 @@ function Home() {
     }
   };
 
+  // Slider Setting
+  var settings = {
+    dots: false,
+    infinite: false,
+    speed: 500,
+    slidesToShow: 3,
+    slidesToScroll: 1,
+    initialSlide: 0,
+    responsive: [
+      {
+        breakpoint: 767,
+        settings: {
+          slidesToShow: 2,
+          slidesToScroll: 2,
+          initialSlide: 2
+        }
+      },
+      {
+        breakpoint: 479,
+        settings: {
+          slidesToShow: 1,
+          slidesToScroll: 1
+        }
+      }
+    ]
+  };
+
   return (
     <div className="home-wrapper">
       <header>
@@ -43,7 +71,7 @@ function Home() {
         <div className="container">
           <div className="fuziku-info-content">
             <div className="row">
-              <div className="col-md-6">
+              <div className="col-md-6 col-lg-4">
                 <div className="fuziku-info-media">
                   <div className="media-img">
                     <img src="/images/fuzuki_inu.png" alt="Fuzuki Inu" />
@@ -68,7 +96,7 @@ function Home() {
                   </div>
                 </div>
               </div>
-              <div className="col-md-6">
+              <div className="col-md-6 col-lg-8 d-flex flex-column justify-content-between ps-lg-4">
                 <div className="fuziku-info-text">
                   <p>
                     Invest and develop compassion with Fuzuki Inu to ensure a
@@ -84,14 +112,24 @@ function Home() {
                     </a>
                   </p>
                 </div>
-                <div className="Count-Timer">
-                  <h5 className="Counter-Heading">Uniswap Listing in</h5>
+                <div className="countdown-timer">
+                  <h4>Uniswap Listing in</h4>
                   <Countdown renderer={renderer} date={"2024-04-25T14:45:09"} />
-                  
+                  <p>Contract Address: #df4d5gfgdf5gf4gdf45gf5fg4gffffd55</p>
                 </div>
               </div>
             </div>
           </div>
+        </div>
+      </section>
+
+      <section className="client-testimonial d-none">
+        <div className="container">
+        <Slider {...settings}>
+          <div className="testimonial-box-wrap">
+              
+          </div>
+        </Slider>
         </div>
       </section>
 

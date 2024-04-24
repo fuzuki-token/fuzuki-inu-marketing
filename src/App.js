@@ -1,5 +1,6 @@
 
 
+import "slick-carousel/slick/slick.css";
 import "./App.css";
 import Home from "./component/Home";
 import React from 'react';
