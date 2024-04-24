@@ -13,7 +13,7 @@ function Home() {
     window.open("https://eth.fuzuki.io/", "_blank");
     // navigate('/eth'); // The route you want to navigate to
   };
-  const Completionist = () => <span>We are launched!</span>;
+  const Completionist = () => <span>We are launched!!</span>;
 
   // Renderer callback with condition
   const renderer = ({ hours, minutes, seconds, completed }) => {
@@ -57,14 +57,14 @@ function Home() {
                     >
                       Buy  on Solana
                     </a> */}
-                    <a
+                    {/* <a
                       href="https://eth.fuzuki.io/"
                       className="buy-now-btn"
                       onClick={handleBuyEthereum}
                       target="_blank"
                     >
                       Buy On Ethereum
-                    </a>
+                    </a> */}
                   </div>
                 </div>
                 <Countdown renderer={renderer} date={"2024-04-25T09:02:09"} />,
