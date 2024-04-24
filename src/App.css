@@ -384,7 +384,7 @@ footer{
 
 @media only screen and (max-width:1199px){
   .fuziku-info-media .buy-now-btn-wrapper{
-    top: 37%;
+    top: 50%;
     transform: translateY(-50%);
     left: 382px;
   }
