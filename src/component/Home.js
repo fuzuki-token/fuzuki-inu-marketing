@@ -35,7 +35,7 @@ function Home() {
   };
   const handleClick = () => {
     navigator?.clipboard
-      ?.writeText("0x8C8938A433fC2f5663c6E828A9E02D5962DD9F62")
+      ?.writeText("0x63b0C0c2E4A1Ef8e2862c64ACc84e2459Dc426CD")
       .then(() => {
         toast.success("Address copied to clipboard");
       })
@@ -109,7 +109,7 @@ function Home() {
                   </div>
                 </div>
               </div>
-              <div className="col-lg-6 d-flex flex-column justify-content-between ps-lg-4">
+              <div className="col-lg-6 d-flex flex-column ps-lg-4">
                 <div className="fuziku-info-text">
                   <p>
                     Invest and develop compassion with Fuzuki Inu to ensure a
@@ -131,14 +131,16 @@ function Home() {
                   {/* <Countdown renderer={renderer} date={"2024-04-25T14:45:09"} /> */}
                   {/* <CountdownTimer /> */}
 
-                  <p className="d-none">
+                  <p>
                     Contract Address:{" "}
-                    <span className="copy-btn">
-                      0x8C8938A433fC2f5663c6E828A9E02D5962DD9F62{" "}
-                    </span>
-                    <span onClick={handleClick} className="copy-code">
-                      <img src="/images/icons/icCopy.png" alt="copy icon" />
-                    </span>
+                    <div className="d-flex align-items-center">
+                      <span className="copy-btn">
+                      0x63b0C0c2E4A1Ef8e2862c64ACc84e2459Dc426CD{" "}
+                      </span>
+                      <span onClick={handleClick} className="copy-code">
+                        <img src="/images/icons/icCopy.png" alt="copy icon" />
+                      </span>
+                    </div>
                   </p>
                 </div>
               </div>
@@ -367,7 +369,7 @@ function Home() {
         <ToastContainer
           position="top-right"
           autoClose={5000}
-          hideProgressBar={false}
+          hideProgressBar={true}
           newestOnTop={false}
           closeOnClick
           rtl={false}
