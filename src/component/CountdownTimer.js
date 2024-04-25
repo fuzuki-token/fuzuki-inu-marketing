@@ -5,7 +5,7 @@ const CountdownTimer = () => {
   const [timeLeft, setTimeLeft] = useState("");
 
   useEffect(() => {
-    const targetTime = moment.tz("2024-04-25 17:45:00", "Asia/Kolkata"); // Set the target time in IST
+    const targetTime = moment.tz("2024-04-25 17:34:00", "Asia/Kolkata"); // Set the target time in IST
     const interval = setInterval(() => {
       const now = moment(); // Current time in UTC
       const duration = moment.duration(targetTime.diff(now));
@@ -17,7 +17,7 @@ const CountdownTimer = () => {
       setTimeLeft(timeString);
 
       // Check if the countdown is over
-      const timeStrings = `${0}H : ${0}M : ${0}S`;
+      const timeStrings = '';
 
       if (duration.asSeconds() <= 0) {
         clearInterval(interval);

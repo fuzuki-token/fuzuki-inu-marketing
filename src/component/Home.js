@@ -127,7 +127,7 @@ function Home() {
                 </div>
 
                 <div className="countdown-timer">
-                  <h4>Uniswap Listing in</h4>
+                  <h4>We are Live on Uniswap.</h4>
                   {/* <Countdown renderer={renderer} date={"2024-04-25T14:45:09"} /> */}
                   <CountdownTimer />
 
