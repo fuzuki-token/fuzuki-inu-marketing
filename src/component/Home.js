@@ -187,7 +187,7 @@ function Home() {
         <div className="container">
           <div className="section-title">
             <h4>Road Map</h4>
-            <p className="text-center">Fuzuki Inu’s journey is planned in three exciting stages to grow and expand its presence in the digital coin world.</p>
+            <p className="text-center d-none">Fuzuki Inu’s journey is planned in three exciting stages to grow and expand its presence in the digital coin world.</p>
           </div>
 
           <ul className="road-map-stages-list">
