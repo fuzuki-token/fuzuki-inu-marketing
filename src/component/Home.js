@@ -148,44 +148,6 @@ function Home() {
         </div>
       </section>
 
-      <section className="client-testimonial">
-        <div className="container">
-          <div className="section-title">
-            <h4>Back on Public Demand</h4>
-          </div>
-          <Slider {...settings}>
-            <div className="testimonial-box">
-              <img src="/images/testimonial-1.png" alt="customer review" />
-              <img src="/images/testimonial-2.png" alt="customer review" />
-            </div>
-            <div className="testimonial-box">
-              <img src="/images/testimonial-3.png" alt="customer review" />
-              <img src="/images/testimonial-4.png" alt="customer review" />
-            </div>
-            <div className="testimonial-box">
-              <img src="/images/testimonial-5.png" alt="customer review" />
-              <img src="/images/testimonial-6.png" alt="customer review" />
-            </div>
-            <div className="testimonial-box">
-              <img src="/images/testimonial-7.png" alt="customer review" />
-              <img src="/images/testimonial-9.png" alt="customer review" />
-            </div>
-            <div className="testimonial-box">
-              <img src="/images/testimonial-8.png" alt="customer review" />
-              <img src="/images/testimonial-10.png" alt="customer review" />
-            </div>
-            <div className="testimonial-box">
-              <img src="/images/testimonial-11.png" alt="customer review" />
-              <img src="/images/testimonial-12.png" alt="customer review" />
-            </div>
-            <div className="testimonial-box">
-              <img src="/images/testimonial-13.png" alt="customer review" />
-              <img src="/images/testimonial-14.png" alt="customer review" />
-            </div>
-          </Slider>
-        </div>
-      </section>
-
       <section className="road-map">
         <div className="container">
           <div className="section-title">
@@ -263,7 +225,45 @@ function Home() {
             </li>
           </ul>
         </div>
-      </section>      <footer>
+      </section>
+      <section className="client-testimonial">
+        <div className="container">
+          <div className="section-title">
+            <h4>Back on Public Demand</h4>
+          </div>
+          <Slider {...settings}>
+            <div className="testimonial-box">
+              <img src="/images/testimonial-1.png" alt="customer review" />
+              <img src="/images/testimonial-2.png" alt="customer review" />
+            </div>
+            <div className="testimonial-box">
+              <img src="/images/testimonial-3.png" alt="customer review" />
+              <img src="/images/testimonial-4.png" alt="customer review" />
+            </div>
+            <div className="testimonial-box">
+              <img src="/images/testimonial-5.png" alt="customer review" />
+              <img src="/images/testimonial-6.png" alt="customer review" />
+            </div>
+            <div className="testimonial-box">
+              <img src="/images/testimonial-7.png" alt="customer review" />
+              <img src="/images/testimonial-9.png" alt="customer review" />
+            </div>
+            <div className="testimonial-box">
+              <img src="/images/testimonial-8.png" alt="customer review" />
+              <img src="/images/testimonial-10.png" alt="customer review" />
+            </div>
+            <div className="testimonial-box">
+              <img src="/images/testimonial-11.png" alt="customer review" />
+              <img src="/images/testimonial-12.png" alt="customer review" />
+            </div>
+            <div className="testimonial-box">
+              <img src="/images/testimonial-13.png" alt="customer review" />
+              <img src="/images/testimonial-14.png" alt="customer review" />
+            </div>
+          </Slider>
+        </div>
+      </section>
+      <footer>
         <div className="container">
           <div className="row align-items-center">
             <div className="col-xl-7">
