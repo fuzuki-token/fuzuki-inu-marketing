@@ -201,7 +201,12 @@ header{
   bottom: -15px;
   left: 50%;
   transform: translateX(-50%);
+}
 
+.section-title p{
+  font-size: 18px;
+  color: #fff;
+  padding-top: 20px;
 }
 
 .road-map-stages-list > li{
@@ -345,6 +350,7 @@ footer{
 
 .client-testimonial .slick-arrow{
   all: unset;
+  cursor: pointer;
   font-size: 0;
   display: inline-block;
   width: 33px;
@@ -384,7 +390,7 @@ footer{
 
 @media only screen and (max-width:1199px){
   .fuziku-info-media .buy-now-btn-wrapper{
-    top: 50%;
+    top: 36%;
     transform: translateY(-50%);
     left: 382px;
   }
@@ -395,26 +401,28 @@ footer{
 }
 
 @media only screen and (max-width:991px){
+  .fuziku-info-text{
+    max-width: 100%;
+    margin: 0;
+    margin-top: 20px;
+    margin-bottom: 30px;
+  }
   .fuziku-info .fuziku-info-content::before{
     top: -15px;
   }
 
   .fuziku-info-media .buy-now-btn-wrapper{
-    left: 343px;
+    left: 391px;
   }
-
+  .client-testimonial{
+    padding: 20px 0;
+  }
   .countdown-timer .Hour{
     font-size: 68px;
   }
 }
 
 @media only screen and (max-width:767px){
-  .fuziku-info-text{
-    max-width: 100%;
-    margin: 0;
-    margin-top: 20px;
-  }
-
   .section-title h4{
     font-size: 42px;
   }
@@ -447,6 +455,13 @@ footer{
 
   .countdown-timer{
     margin-top: 30px;
+  }
+}
+
+
+@media only screen and (max-width: 479px){
+  .copy-btn{
+    font-size: 10px;
   }
 }
 
