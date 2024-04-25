@@ -132,7 +132,7 @@ function Home() {
                   {/* <Countdown renderer={renderer} date={"2024-04-25T14:45:09"} /> */}
                   <CountdownTimer />
 
-                  <p className="d-none">
+                  <p className="">
                     Contract Address:{" "}
                     <span className="copy-btn">
                       0x8C8938A433fC2f5663c6E828A9E02D5962DD9F62{" "}
@@ -365,7 +365,18 @@ function Home() {
             </div>
           </div>
         </div>
-        <ToastContainer />
+        <ToastContainer
+          position="top-right"
+          autoClose={5000}
+          hideProgressBar={false}
+          newestOnTop={false}
+          closeOnClick
+          rtl={false}
+          pauseOnFocusLoss
+          draggable
+          pauseOnHover
+          theme="dark"
+        />
       </footer>
     </div>
   );
