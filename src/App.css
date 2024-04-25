@@ -311,7 +311,7 @@ footer{
   letter-spacing: 2px;
   font-weight: 800;
   color: #fff;
-  padding-bottom: 20px;
+  padding-bottom: 30px;
 }
  
 .countdown-timer .Hour{
@@ -397,7 +397,7 @@ footer{
   }
  
   .countdown-timer .Hour{
-    font-size: 50px;
+    font-size: 60px;
   }
 }
  
@@ -417,9 +417,6 @@ footer{
   }
   .client-testimonial{
     padding: 20px 0;
-  }
-  .countdown-timer .Hour{
-    font-size: 50px;
   }
 }
  
@@ -463,6 +460,12 @@ footer{
 @media only screen and (max-width: 479px){
   .copy-btn{
     font-size: 10px;
+  }
+  .countdown-timer h4{
+    font-size: 32px;
+  }
+  .countdown-timer .Hour{
+    font-size: 38px;
   }
 }
  

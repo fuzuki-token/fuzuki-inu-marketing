@@ -85,7 +85,7 @@ function Home() {
         <div className="container">
           <div className="fuziku-info-content">
             <div className="row">
-              <div className="col-md-6">
+              <div className="col-lg-6">
                 <div className="fuziku-info-media">
                   <div className="media-img">
                     <img src="/images/fuzuki_inu.png" alt="Fuzuki Inu" />
@@ -110,7 +110,7 @@ function Home() {
                   </div>
                 </div>
               </div>
-              <div className="col-md-6 d-flex flex-column justify-content-between ps-lg-4">
+              <div className="col-lg-6 d-flex flex-column justify-content-between ps-lg-4">
                 <div className="fuziku-info-text">
                   <p>
                     Invest and develop compassion with Fuzuki Inu to ensure a
