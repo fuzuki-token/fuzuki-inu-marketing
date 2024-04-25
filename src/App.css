@@ -4,7 +4,7 @@
 #   Fonts 
 ------------------------------------*/
 @import url('https://fonts.googleapis.com/css2?family=Jockey+One&display=swap');
-@import url("https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;700&display=swap");
+@import url('https://fonts.googleapis.com/css2?family=Bigshot+One&family=Poppins:wght@400;500;600;700&display=swap');
  
 /*-----------------------------------
 #   Common Variables 
@@ -315,7 +315,7 @@ footer{
 }
  
 .countdown-timer .Hour{
-  font-size: 70px;
+  font-size: 75px;
   font-weight: 800;
   color: #fff;
   padding-bottom: 20px;
@@ -371,6 +371,11 @@ footer{
   top: 50%;
   right: 0;
   transform: translateY(-50%);
+}
+
+.client-testimonial .slick-arrow.slick-disabled{
+  visibility: hidden;
+  opacity: 0;
 }
  
 .client-testimonial .slick-slider{

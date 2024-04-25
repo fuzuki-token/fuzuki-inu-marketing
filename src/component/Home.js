@@ -150,6 +150,9 @@ function Home() {
 
       <section className="client-testimonial">
         <div className="container">
+          <div className="section-title">
+            <h4>Back on Public Demand</h4>
+          </div>
           <Slider {...settings}>
             <div className="testimonial-box">
               <img src="/images/testimonial-1.png" alt="customer review" />
@@ -187,7 +190,6 @@ function Home() {
         <div className="container">
           <div className="section-title">
             <h4>Road Map</h4>
-            <p className="text-center d-none">Fuzuki Inu’s journey is planned in three exciting stages to grow and expand its presence in the digital coin world.</p>
           </div>
 
           <ul className="road-map-stages-list">
