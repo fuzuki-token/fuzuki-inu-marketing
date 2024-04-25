@@ -131,7 +131,7 @@ function Home() {
                   {/* <Countdown renderer={renderer} date={"2024-04-25T14:45:09"} /> */}
                   <CountdownTimer />
 
-                  <p className="">
+                  <p className="d-none">
                     Contract Address:{" "}
                     <span className="copy-btn">
                       0x8C8938A433fC2f5663c6E828A9E02D5962DD9F62{" "}
