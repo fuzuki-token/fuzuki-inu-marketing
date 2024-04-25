@@ -34,14 +34,14 @@ function Home() {
     }
   };
   const handleClick = () => {
-    navigator.clipboard
-      .writeText("0x8C8938A433fC2f5663c6E828A9E02D5962DD9F62")
+    navigator?.clipboard
+      ?.writeText("0x8C8938A433fC2f5663c6E828A9E02D5962DD9F62")
       .then(() => {
         toast.success("Address copied to clipboard");
       })
       .catch((error) => {
         toast.error("Failed to copy text to clipboard");
-        console.error("Clipboard copy failed:", error);
+        // console.error("Clipboard copy failed:", error);
       });
   };
 
