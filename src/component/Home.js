@@ -15,7 +15,7 @@ function Home() {
     // Optional: Prevent default if conditional logic is needed
     event.preventDefault();
     // window.open("https://eth.fuzuki.io/", "_blank");
-    navigate("/Coming"); // The route you want to navigate to
+    navigate("/https://app.uniswap.org"); // The route you want to navigate to
   };
   const Completionist = () => <span>We are launched!!</span>;
 
@@ -100,9 +100,8 @@ function Home() {
                       Buy  on Solana
                     </a> */}
                     <a
-                      href="https://eth.fuzuki.io/"
+                      href="https://app.uniswap.org/"
                       className="buy-now-btn"
-                      onClick={handleBuyEthereum}
                       target="_blank"
                     >
                       Buy On Uniswap
