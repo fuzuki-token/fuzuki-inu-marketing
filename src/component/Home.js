@@ -15,7 +15,7 @@ function Home() {
     // Optional: Prevent default if conditional logic is needed
     event.preventDefault();
     // window.open("https://eth.fuzuki.io/", "_blank");
-    navigate('/Coming'); // The route you want to navigate to
+    navigate("/Coming"); // The route you want to navigate to
   };
   const Completionist = () => <span>We are launched!!</span>;
 
@@ -35,7 +35,7 @@ function Home() {
   };
   const handleClick = () => {
     navigator.clipboard
-      .writeText("0x4d088920d5D4bB74F0B1626b181f22438d255c83")
+      .writeText("0x8C8938A433fC2f5663c6E828A9E02D5962DD9F62")
       .then(() => {
         toast.success("Address copied to clipboard");
       })
@@ -130,12 +130,12 @@ function Home() {
                 <div className="countdown-timer">
                   <h4>Uniswap Listing in</h4>
                   {/* <Countdown renderer={renderer} date={"2024-04-25T14:45:09"} /> */}
-                  <CountdownTimer/>
+                  <CountdownTimer />
 
-                  <p className="d-none">
+                  <p className="">
                     Contract Address:{" "}
                     <span className="copy-btn">
-                      0x4d088920d5D4bB74F0B1626b181f22438d255c83{" "}
+                      0x8C8938A433fC2f5663c6E828A9E02D5962DD9F62{" "}
                     </span>
                     <span onClick={handleClick} className="copy-code">
                       <img src="/images/icons/icCopy.png" alt="copy icon" />
@@ -169,14 +169,25 @@ function Home() {
                   <h4>Initial Launch and Token Deployment</h4>
                   <ul>
                     <li>
-                    Declaration of Tokenomics: The foundational economics and allocation details for the Fuzuki ecosystem will be established.
-                    </li>
-                    <li>Deployment of New Fuzuki Token Contract: A new smart contract for the Fuzuki token will be deployed, ensuring improved security and functionality.</li>
-                    <li>
-                      Uniswap Listing: The Fuzuki token will be listed on the decentralized exchange (DEX) Uniswap on April 25, 2024, at 9:15 AM GMT, facilitating initial public access and trading.
+                      Declaration of Tokenomics: The foundational economics and
+                      allocation details for the Fuzuki ecosystem will be
+                      established.
                     </li>
                     <li>
-                      Potential Listings on Centralized Exchanges: Efforts will be made to list the Fuzuki token on multiple centralized exchanges to increase liquidity and accessibility.
+                      Deployment of New Fuzuki Token Contract: A new smart
+                      contract for the Fuzuki token will be deployed, ensuring
+                      improved security and functionality.
+                    </li>
+                    <li>
+                      Uniswap Listing: The Fuzuki token will be listed on the
+                      decentralized exchange (DEX) Uniswap on April 25, 2024, at
+                      9:15 AM GMT, facilitating initial public access and
+                      trading.
+                    </li>
+                    <li>
+                      Potential Listings on Centralized Exchanges: Efforts will
+                      be made to list the Fuzuki token on multiple centralized
+                      exchanges to increase liquidity and accessibility.
                     </li>
                   </ul>
                 </div>
@@ -196,10 +207,15 @@ function Home() {
                   <h4>Expansion of Services</h4>
                   <ul>
                     <li>
-                      Launch of DEX: The Fuzuki ecosystem will expand by launching its decentralized exchange, improving the user experience and control over trading activities.
+                      Launch of DEX: The Fuzuki ecosystem will expand by
+                      launching its decentralized exchange, improving the user
+                      experience and control over trading activities.
                     </li>
                     <li>
-                      Introduction of New Token - Skulk: A new token, Skulk, will be introduced, diversifying the ecosystem’s offerings and providing new opportunities for investment and utility.
+                      Introduction of New Token - Skulk: A new token, Skulk,
+                      will be introduced, diversifying the ecosystem’s offerings
+                      and providing new opportunities for investment and
+                      utility.
                     </li>
                   </ul>
                 </div>
@@ -218,7 +234,12 @@ function Home() {
                 <div className="road-map-stage">
                   <h4>Ecosystem Integration</h4>
                   <ul>
-                    <li>Ecosystem Declaration: A comprehensive declaration outlining the future vision, integration strategies, and long-term goals of the Fuzuki ecosystem will be published, setting the stage for sustained growth and innovation.</li>
+                    <li>
+                      Ecosystem Declaration: A comprehensive declaration
+                      outlining the future vision, integration strategies, and
+                      long-term goals of the Fuzuki ecosystem will be published,
+                      setting the stage for sustained growth and innovation.
+                    </li>
                   </ul>
                 </div>
               </div>
@@ -344,7 +365,18 @@ function Home() {
             </div>
           </div>
         </div>
-        <ToastContainer />
+        <ToastContainer
+          position="top-right"
+          autoClose={5000}
+          hideProgressBar={false}
+          newestOnTop={false}
+          closeOnClick
+          rtl={false}
+          pauseOnFocusLoss
+          draggable
+          pauseOnHover
+          theme="dark"
+        />
       </footer>
     </div>
   );
