@@ -1,25 +1,25 @@
 @charset "utf-8";
-
+ 
 /*-----------------------------------
 #   Fonts 
 ------------------------------------*/
 @import url('https://fonts.googleapis.com/css2?family=Jockey+One&display=swap');
 @import url("https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;700&display=swap");
-
+ 
 /*-----------------------------------
 #   Common Variables 
 ------------------------------------*/
-
+ 
 :root {
   --selection-bg: #454545;
   --selection-text: #fff;
   --placeholder-text: #ccc;
 }
-
+ 
 /*-----------------------------------
 #   Common Css 
 ------------------------------------*/
-
+ 
 body {
   height: 100%;
   font-size: 14px;
@@ -31,32 +31,32 @@ body {
   color: #000;
   background-color: #f6f8fc;
 }
-
+ 
 ul,
 ol {
   list-style: none;
   margin: 0;
   padding: 0;
 }
-
+ 
 img {
   max-width: 100%;
   height: auto;
 }
-
+ 
 a {
   text-decoration: none;
   outline: none !important;
   color: inherit;
   transition: 0.3s ease;
 }
-
+ 
 @media (hover: hover) {
   a:hover {
     color: inherit;
   }
 }
-
+ 
 h1,
 h2,
 h3,
@@ -67,14 +67,14 @@ h6 {
   padding: 0;
   font-weight: 400;
 }
-
+ 
 p {
   font-size: 16px;
   line-height: 24px;
   color: #000;
   margin: 0;
 }
-
+ 
 .home-wrapper{
   width: 100%;
   min-height: 100vh;
@@ -82,18 +82,18 @@ p {
   background-repeat: no-repeat;
   background-size: cover;
 }
-
-
+ 
+ 
 header{
   padding-top: 20px;
   padding-bottom: 30px;
 }
-
+ 
 .fuziku-info .fuziku-info-content{
   position: relative;
   padding-bottom: 35px;
 }
-
+ 
 .fuziku-info .fuziku-info-content::before{
   content: "";
   width: 821px;
@@ -106,12 +106,12 @@ header{
   right: 0;
   top: -45px;
 }
-
+ 
 .fuziku-info-media{
   position: relative;
   margin-top: 10px;
 }
-
+ 
 .buy-now-btn{
   display: inline-block;
   font-family: "Jockey One", sans-serif;
@@ -124,7 +124,7 @@ header{
   border-radius: 10px;
   text-align: center;
 }
-
+ 
 .fuziku-info-media .buy-now-btn-wrapper{
   position: absolute;
   left: 393px;
@@ -143,13 +143,13 @@ header{
 .fuziku-info-media .buy-now-btn-wrapper .buy-now-btn:first-child{
   margin-bottom: 20px;
 }
-
+ 
 .fuziku-info-text p{
   font-size: 18px;
   line-height: 28px;
   color: #fff;
 }
-
+ 
 .fuziku-info-text p .brand{
   font-size: 20px;
   font-family: "Jockey One", sans-serif;
@@ -159,7 +159,7 @@ header{
   background-clip: text;
   text-fill-color: transparent;
 }
-
+ 
 .whitepaper-link{
   padding: 5px 10px;
     background: linear-gradient(90deg, #FEF621 21.5%, #54E90F 100%);
@@ -170,12 +170,12 @@ header{
     display: inline-block;
     margin-left: 10px;
 }
-
+ 
 .whitepaper-link:hover{
   color: #000;
 }
-
-
+ 
+ 
 /*-----------------------------------
 # Road Map section CSS
 ------------------------------------*/
@@ -194,7 +194,7 @@ header{
   text-align: center;
   padding-bottom: 10px;
 }
-
+ 
 .section-title h4::before{
   content: url("../public/images/icons/border-line.png");
   position: absolute;
@@ -202,19 +202,19 @@ header{
   left: 50%;
   transform: translateX(-50%);
 }
-
+ 
 .section-title p{
   font-size: 18px;
   color: #fff;
   padding-top: 20px;
 }
-
+ 
 .road-map-stages-list > li{
   padding-top: 30px;
   padding-bottom: 40px;
   position: relative;
 }
-
+ 
 .road-map-stages-list >  li::after{
     content: "";
     width: calc(100% - 12px);
@@ -228,25 +228,25 @@ header{
     left: 0;
     bottom: 0;
 }
-
+ 
 .road-map-stages-list >  li:nth-child(even):after{
     transform: rotate(180deg);
     background-image: url("../public/images/icons/line-3.png");
     left: unset;
     right: 0;
 } 
-
+ 
 .road-map-stage h4{
   font-size: 40px;
   font-family: "Jockey One", sans-serif;
   padding-bottom: 15px;
   color: #71E512;
 }
-
+ 
 .road-map-stages-list >  li:nth-child(even) .road-map-stage h4{
   color: #FEF621;
 }
-
+ 
 .road-map-stage > ul li{
   font-size: 18px;
   line-height: 26px;
@@ -264,11 +264,11 @@ header{
   left: 0;
   top: 2px;
 }
-
+ 
 footer{
   padding: 20px 0;
 }
-
+ 
 .footer-social ul{
   display: flex;
 }
@@ -282,7 +282,7 @@ footer{
   padding: 0 10px;
   position: relative;
 }
-
+ 
 .footer-social ul li::after{
   content: url("../public/images/icons/border.png");
   position: absolute;
@@ -290,21 +290,21 @@ footer{
   top: 50%;
   transform: translateY(-50%);
 }
-
+ 
 .footer-social ul li:last-child::after{
   content: "";
 }
-
+ 
 .desclaimer-text p{
   font-size: 14px;
   color: #fff;
 }
-
+ 
 .desclaimer-text p span{
   font-size: 22px;
   font-family: "Jockey One", sans-serif;
 }
-
+ 
 .countdown-timer h4{
   font-family: "Jockey One", sans-serif;
   font-size: 38px;
@@ -313,19 +313,19 @@ footer{
   color: #fff;
   padding-bottom: 20px;
 }
-
+ 
 .countdown-timer .Hour{
   font-size: 70px;
   font-weight: 800;
   color: #fff;
   padding-bottom: 20px;
 }
-
+ 
 .countdown-timer p{
   color: #fff;
   font-weight: 700;
 }
-
+ 
 .copy-btn{
   all: unset;
   padding: 5px 10px;
@@ -336,7 +336,7 @@ footer{
   display: inline-block;
   cursor: pointer;
 }
-
+ 
 .client-testimonial{
   padding: 40px 0;
 }
@@ -346,8 +346,8 @@ footer{
 .testimonial-box img:first-child{
   margin-bottom: 15px;
 }
-
-
+ 
+ 
 .client-testimonial .slick-arrow{
   all: unset;
   cursor: pointer;
@@ -372,35 +372,35 @@ footer{
   right: 0;
   transform: translateY(-50%);
 }
-
+ 
 .client-testimonial .slick-slider{
   padding: 0 40px;
 }
-
+ 
 .copy-code{
   max-width: 22px;
   display: inline-block;
   margin-left: 6px;
   cursor: pointer;
 }
-
+ 
 .fuziku-info-text{
   max-width: 400px;
   margin-left: auto;
 }
-
+ 
 @media only screen and (max-width:1199px){
   .fuziku-info-media .buy-now-btn-wrapper{
     top: 36%;
     transform: translateY(-50%);
     left: 382px;
   }
-
+ 
   .countdown-timer .Hour{
     font-size: 50px;
   }
 }
-
+ 
 @media only screen and (max-width:991px){
   .fuziku-info-text{
     max-width: 100%;
@@ -411,7 +411,7 @@ footer{
   .fuziku-info .fuziku-info-content::before{
     top: -15px;
   }
-
+ 
   .fuziku-info-media .buy-now-btn-wrapper{
     left: 391px;
   }
@@ -419,10 +419,10 @@ footer{
     padding: 20px 0;
   }
   .countdown-timer .Hour{
-    font-size: 55px;
+    font-size: 50px;
   }
 }
-
+ 
 @media only screen and (max-width:767px){
   .section-title h4{
     font-size: 42px;
@@ -434,12 +434,12 @@ footer{
     font-size: 16px;
     line-height: 24px;
   }
-
+ 
   .fuziku-info-media .buy-now-btn-wrapper{
     position: static;
     transform: translateY(0);
   }
-
+ 
   .fuziku-info-media .media-img{
     text-align: center;
   }
@@ -453,23 +453,23 @@ footer{
   .fuziku-info-media .buy-now-btn-wrapper .buy-now-btn{
     margin: 0 10px;
   }
-
+ 
   .countdown-timer{
     margin-top: 30px;
   }
 }
-
-
+ 
+ 
 @media only screen and (max-width: 479px){
   .copy-btn{
     font-size: 10px;
   }
 }
-
+ 
 /*---------------------------
 # Coming Soon Page CSS
 ----------------------------*/
-
+ 
 .coming-soon-wrapper{
   display: flex;
   flex-direction: column;
@@ -489,7 +489,7 @@ footer{
   text-fill-color: transparent;
   padding-bottom: 30px;
 }
-
+ 
 .coming-soon-content p{
   font-size: 24px;
   color: #fff;
@@ -499,7 +499,7 @@ footer{
   font-size: 50px;
   font-weight: 900;
 }
-
+ 
 .Counter-Heading{
   font-size: 20px;
   color: white;

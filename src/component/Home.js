@@ -183,10 +183,11 @@ function Home() {
         </div>
       </section>
 
-      <section className="road-map d-none">
+      <section className="road-map">
         <div className="container">
           <div className="section-title">
             <h4>Road Map</h4>
+            <p className="text-center">Fuzuki Inu’s journey is planned in three exciting stages to grow and expand its presence in the digital coin world.</p>
           </div>
 
           <ul className="road-map-stages-list">
@@ -201,22 +202,18 @@ function Home() {
               </div>
               <div className="col-lg-8">
                 <div className="road-map-stage">
-                  <h4>Launch</h4>
+                  <h4>Initial Launch and Token Deployment</h4>
                   <ul>
                     <li>
-                      Public sale begins first opportunity to buy Fuzuki Inu
-                      coins.{" "}
+                    Declaration of Tokenomics: The foundational economics and allocation details for the Fuzuki ecosystem will be established.
                     </li>
-                    <li>Creating the project idea, logo, and tokenomics. </li>
+                    <li>Deployment of New Fuzuki Token Contract: A new smart contract for the Fuzuki token will be deployed, ensuring improved security and functionality.</li>
                     <li>
-                      Establishing an online network through social media
-                      platforms.
+                      Uniswap Listing: The Fuzuki token will be listed on the decentralized exchange (DEX) Uniswap on April 25, 2024, at 9:15 AM GMT, facilitating initial public access and trading.
                     </li>
                     <li>
-                      Launching marketing campaigns to attract possible
-                      investors.{" "}
+                      Potential Listings on Centralized Exchanges: Efforts will be made to list the Fuzuki token on multiple centralized exchanges to increase liquidity and accessibility.
                     </li>
-                    <li>Uniswap Launch</li>
                   </ul>
                 </div>
               </div>
@@ -232,20 +229,14 @@ function Home() {
               </div>
               <div className="col-lg-8">
                 <div className="road-map-stage">
-                  <h4>CEX Listing</h4>
+                  <h4>Expansion of Services</h4>
                   <ul>
                     <li>
-                      CEX listing: Fuzuki Inu coins will now be offered on
-                      centralized exchanges.
+                      Launch of DEX: The Fuzuki ecosystem will expand by launching its decentralized exchange, improving the user experience and control over trading activities.
                     </li>
                     <li>
-                      Beginning with the second stage of the marketing campaign
-                      round.
+                      Introduction of New Token - Skulk: A new token, Skulk, will be introduced, diversifying the ecosystem’s offerings and providing new opportunities for investment and utility.
                     </li>
-                    <li>Partnering with other meme-based projects.</li>
-                    <li>Offer new income sources for token holders.</li>
-                    <li>Listing for CMC and CG. </li>
-                    <li>Listing on CEX Platforms </li>
                   </ul>
                 </div>
               </div>
@@ -261,34 +252,16 @@ function Home() {
               </div>
               <div className="col-lg-8">
                 <div className="road-map-stage">
-                  <h4>DEX Launch & New Token Launch (Skulk)</h4>
+                  <h4>Ecosystem Integration</h4>
                   <ul>
-                    <li>Introduction to Decentralized Exchanges.</li>
-                    <li>
-                      New token (Skulk) launch: Expands the Fuzuki Inu
-                      ecosystem.
-                    </li>
-                    <li>Setting up marketing campaigns for stage 3.</li>
-                    <li>
-                      Established multiple collaborations to extend the
-                      initiative.
-                    </li>
-                    <li>
-                      Marketing to reach new marketplaces and groups for the
-                      project.
-                    </li>
-                    <li>
-                      Creating new revenue streams and partnerships to increase
-                      project income.
-                    </li>
+                    <li>Ecosystem Declaration: A comprehensive declaration outlining the future vision, integration strategies, and long-term goals of the Fuzuki ecosystem will be published, setting the stage for sustained growth and innovation.</li>
                   </ul>
                 </div>
               </div>
             </li>
           </ul>
         </div>
-      </section>
-      <footer>
+      </section>      <footer>
         <div className="container">
           <div className="row align-items-center">
             <div className="col-xl-7">
