@@ -17,9 +17,11 @@ const CountdownTimer = () => {
       setTimeLeft(timeString);
 
       // Check if the countdown is over
+      const timeStrings = `${0}H : ${0}M : ${0}S`;
+
       if (duration.asSeconds() <= 0) {
         clearInterval(interval);
-        setTimeLeft("Launch has occurred!");
+        setTimeLeft(timeStrings);
       }
     }, 1000);
 
