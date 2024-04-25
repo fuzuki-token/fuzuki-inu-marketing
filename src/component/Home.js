@@ -127,9 +127,9 @@ function Home() {
                 </div>
 
                 <div className="countdown-timer">
-                  <h4>We are Live on Uniswap.</h4>
+                  <h4 className="animateDownUp">We are Live on Uniswap.</h4>
                   {/* <Countdown renderer={renderer} date={"2024-04-25T14:45:09"} /> */}
-                  <CountdownTimer />
+                  {/* <CountdownTimer /> */}
 
                   <p className="d-none">
                     Contract Address:{" "}

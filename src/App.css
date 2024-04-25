@@ -306,8 +306,13 @@ footer{
 }
  
 .countdown-timer h4{
-  font-family: "Jockey One", sans-serif;
   font-size: 38px;
+  font-family: "Jockey One", sans-serif;
+  background: linear-gradient(90deg, #FEF621 21.5%, #54E90F 100%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
+  text-fill-color: transparent;
   letter-spacing: 2px;
   font-weight: 800;
   color: #fff;
@@ -397,6 +402,30 @@ footer{
 
 .road-map{
   padding-top: 40px;
+}
+
+
+@keyframes animateDownUp {
+  0% {
+        transform: rotateX(0deg) translateY(0px);
+    }
+  50% {
+        transform: rotateX(0deg) translateY(20px);
+    }
+  100% {
+        transform: rotateX(0deg) translateY(0px);
+    }
+}
+
+.animateDownUp {
+  -webkit-animation-name: animateDownUp;
+  animation-name: animateDownUp;
+  -webkit-animation-duration: 5s;
+  animation-duration: 5s;
+  -webkit-animation-iteration-count: infinite;
+  animation-iteration-count: infinite;
+  -webkit-animation-timing-function: linear;
+  animation-timing-function: linear;
 }
  
 @media only screen and (max-width:1199px){
