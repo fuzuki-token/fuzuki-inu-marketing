@@ -316,6 +316,7 @@ footer{
  
 .countdown-timer .Hour{
   font-size: 75px;
+  line-height: 0.8;
   font-weight: 800;
   color: #fff;
   padding-bottom: 20px;
