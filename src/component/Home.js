@@ -3,6 +3,7 @@ import Countdown, { zeroPad } from "react-countdown";
 import Slider from "react-slick";
 import { ToastContainer, toast } from "react-toastify";
 import "react-toastify/dist/ReactToastify.css";
+import CountdownTimer from "./CountdownTimer";
 
 function Home() {
   const navigate = useNavigate();
@@ -128,7 +129,9 @@ function Home() {
 
                 <div className="countdown-timer">
                   <h4>Uniswap Listing in</h4>
-                  <Countdown renderer={renderer} date={"2024-04-25T14:45:09"} />
+                  {/* <Countdown renderer={renderer} date={"2024-04-25T14:45:09"} /> */}
+                  <CountdownTimer/>
+
                   <p className="d-none">
                     Contract Address:{" "}
                     <span className="copy-btn">
