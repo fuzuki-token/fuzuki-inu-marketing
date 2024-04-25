@@ -119,7 +119,7 @@ function Home() {
                     <span className="brand">Fuzuki Inu: The shiba kanji</span>
                     <a
                       target="_blank"
-                      href="https://doc.fuzuki.io/fuzuki-inu-whitepaper.pdf"
+                      href="https://fuzuki-s3.s3.amazonaws.com/fuzuki-inu-whitepaper.pdf"
                       className="whitepaper-link"
                     >
                       Whitepaper
