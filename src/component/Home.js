@@ -79,6 +79,7 @@ function Home() {
           <a href="https://fuzuki.io/" className="brand-logo">
             <img src="/images/fuzuki_inu_logo.png" alt="Fuzuki Inu Logo" />
           </a>
+          <a className="buy-now-btn" href="https://www.dextools.io/app/en/ether/pair-explorer/0x8e5827e417e9a24105f5c7488c8b78a445e07b46?t=1714110291907" target="_blank">For more on Dextools</a>
         </div>
       </header>
       <section className="fuziku-info">

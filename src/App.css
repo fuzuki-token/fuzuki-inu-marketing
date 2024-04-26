@@ -88,6 +88,16 @@ header{
   padding-top: 20px;
   padding-bottom: 30px;
 }
+
+header .container{
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+header .container .buy-now-btn{
+  margin-left: 20px;
+}
  
 .fuziku-info .fuziku-info-content{
   position: relative;
