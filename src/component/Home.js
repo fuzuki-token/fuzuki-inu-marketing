@@ -245,48 +245,45 @@ function Home() {
       <section className="client-testimonial">
         <div className="container">
           <div className="section-title">
-            <h4>Back on Public Demand</h4>
+            <h4>We are covered on</h4>
           </div>
           <Slider {...settings}>
-            <div className="testimonial-box">
-              <img src="/images/testimonial-1.png" alt="customer review" />
-              <img src="/images/testimonial-2.png" alt="customer review" />
-            </div>
-            <div className="testimonial-box">
-              <img src="/images/testimonial-3.png" alt="customer review" />
-              <img src="/images/testimonial-4.png" alt="customer review" />
-            </div>
-            <div className="testimonial-box">
-              <img src="/images/testimonial-5.png" alt="customer review" />
-              <img src="/images/testimonial-6.png" alt="customer review" />
-            </div>
-            <div className="testimonial-box">
-              <img src="/images/testimonial-7.png" alt="customer review" />
-              <img src="/images/testimonial-9.png" alt="customer review" />
-            </div>
-            <div className="testimonial-box">
-              <img src="/images/testimonial-8.png" alt="customer review" />
-              <img src="/images/testimonial-10.png" alt="customer review" />
-            </div>
-            <div className="testimonial-box">
-              <img src="/images/testimonial-11.png" alt="customer review" />
-              <img src="/images/testimonial-12.png" alt="customer review" />
-            </div>
-            <div className="testimonial-box">
-              <img src="/images/testimonial-13.png" alt="customer review" />
-              <img src="/images/testimonial-14.png" alt="customer review" />
-            </div>
+            <a className="testimonial-box" href="https://www.globenewswire.com/en/search/organization/Fuzuki%2520Inu" title="Globenewswire" target="_blank">
+              <div className="brand-media">
+                <img src="/images/globenewswire.png" alt="globenewswire" />
+              </div>
+            </a>
+            <a className="testimonial-box" href="https://www.globenewswire.com/en/search/organization/Fuzuki%2520Inu" title="Globenewswire" target="_blank">
+              <div className="brand-media">
+                <img src="/images/globenewswire.png" alt="globenewswire" />
+              </div>
+            </a>
+            <a className="testimonial-box" href="https://www.globenewswire.com/en/search/organization/Fuzuki%2520Inu" title="Globenewswire" target="_blank">
+              <div className="brand-media">
+                <img src="/images/globenewswire.png" alt="globenewswire" />
+              </div>
+            </a>
+            <a className="testimonial-box" href="https://www.globenewswire.com/en/search/organization/Fuzuki%2520Inu" title="Globenewswire" target="_blank">
+              <div className="brand-media">
+                <img src="/images/globenewswire.png" alt="globenewswire" />
+              </div>
+            </a>
+            <a className="testimonial-box" href="https://www.globenewswire.com/en/search/organization/Fuzuki%2520Inu" title="Globenewswire" target="_blank">
+              <div className="brand-media">
+                <img src="/images/globenewswire.png" alt="globenewswire" />
+              </div>
+            </a>
           </Slider>
         </div>
       </section>
-      <section className="contract-address mb-5">
+      <section className="mb-5">
         <div className="container">
         <div className="countdown-timer">
                   {/* <h4 className="animateDownUp">We are Live on Uniswap.</h4> */}
                   {/* <Countdown renderer={renderer} date={"2024-04-25T14:45:09"} /> */}
                   {/* <CountdownTimer /> */}
-                  <p>
-                    Contract Address:{" "}
+                  <p className="contract-address d-lg-flex align-items-lg-center">
+                    <span className="pe-lg-2">Fuzuki Inu Contract Address :{" "}</span>
                     <div className="d-flex align-items-center">
                       <span className="copy-btn">
                       0x63b0C0c2E4A1Ef8e2862c64ACc84e2459Dc426CD{" "}
