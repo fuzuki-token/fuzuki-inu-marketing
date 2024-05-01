@@ -74,6 +74,14 @@ p {
   color: #000;
   margin: 0;
 }
+
+.text-gradient{
+    background: linear-gradient(90deg, #FEF621 21.5%, #54E90F 100%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-clip: text;
+    text-fill-color: transparent;
+}
  
 .home-wrapper{
   width: 100%;
@@ -97,6 +105,19 @@ header .container{
 
 header .container .buy-now-btn{
   margin-left: 20px;
+}
+
+.more-statics .round-btn{
+  display: inline-block;
+  max-width: 32px;
+}
+
+.more-statics .round-btn img{
+  width: 100%;
+}
+.more-statics p{
+  font-family: "Jockey One", sans-serif;
+  font-size: 20px;
 }
  
 .fuziku-info .fuziku-info-content{
@@ -407,8 +428,6 @@ footer{
  
 .fuziku-info-text{
   max-width: 400px;
-  margin-left: auto;
-  margin-bottom: 70px;
 }
 
 .road-map{
@@ -456,7 +475,6 @@ footer{
     max-width: 100%;
     margin: 0;
     margin-top: 20px;
-    margin-bottom: 30px;
   }
   .fuziku-info .fuziku-info-content::before{
     top: -15px;
@@ -471,6 +489,9 @@ footer{
 }
  
 @media only screen and (max-width:767px){
+  header .brand-logo{
+    max-width: 140px;
+  }
   .section-title h4{
     font-size: 42px;
   }
@@ -504,6 +525,9 @@ footer{
  
  
 @media only screen and (max-width: 479px){
+  header .brand-logo{
+    max-width: 120px;
+  }
   .copy-btn{
     font-size: 10px;
   }
