@@ -79,13 +79,24 @@ function Home() {
           <a href="https://fuzuki.io/" className="brand-logo">
             <img src="/images/fuzuki_inu_logo.png" alt="Fuzuki Inu Logo" />
           </a>
-          <a className="buy-now-btn" href="https://www.dextools.io/app/en/ether/pair-explorer/0x8e5827e417e9a24105f5c7488c8b78a445e07b46?t=1714110291907" target="_blank">For more on Dextools</a>
+          <div className="header-right ms-auto">
+            <div className="more-statics d-flex align-items-center">
+              <p className="text-gradient">Explore On</p>
+              <a className="round-btn ms-3" href="https://www.geckoterminal.com/eth/pools/0x8e5827e417e9a24105f5c7488c8b78a445e07b46?utm_source=coingecko&utm_medium=referral&utm_campaign=searchresults" target="_blank">
+                <img src="/images/icons/ic-geckoterminal.png" alt="geckoterminal" title="Gecko Terminal" />
+              </a>
+              <a className="round-btn ms-3" href="https://www.dextools.io/app/en/ether/pair-explorer/0x8e5827e417e9a24105f5c7488c8b78a445e07b46?t=1714110291907" target="_blank">
+                <img src="/images/icons/ic-dextools.png" alt="dextools" title="Dex Tools" />
+              </a>
+            </div>
+          </div>
+          {/* <a className="buy-now-btn" href="https://www.dextools.io/app/en/ether/pair-explorer/0x8e5827e417e9a24105f5c7488c8b78a445e07b46?t=1714110291907" target="_blank">For more on Dextools</a> */}
         </div>
       </header>
       <section className="fuziku-info">
         <div className="container">
           <div className="fuziku-info-content">
-            <div className="row">
+            <div className="row align-items-center">
               <div className="col-lg-6">
                 <div className="fuziku-info-media">
                   <div className="media-img">
@@ -108,6 +119,22 @@ function Home() {
                       Buy On Uniswap
                     </a>
                   </div>
+                  <div className="countdown-timer pt-5">
+                  {/* <h4 className="animateDownUp">We are Live on Uniswap.</h4> */}
+                  {/* <Countdown renderer={renderer} date={"2024-04-25T14:45:09"} /> */}
+                  {/* <CountdownTimer /> */}
+                  <p>
+                    Contract Address:{" "}
+                    <div className="d-flex align-items-center">
+                      <span className="copy-btn">
+                      0x63b0C0c2E4A1Ef8e2862c64ACc84e2459Dc426CD{" "}
+                      </span>
+                      <span onClick={handleClick} className="copy-code">
+                        <img src="/images/icons/icCopy.png" alt="copy icon" />
+                      </span>
+                    </div>
+                  </p>
+                </div>
                 </div>
               </div>
               <div className="col-lg-6 d-flex flex-column ps-lg-4">
@@ -124,24 +151,6 @@ function Home() {
                     >
                       Whitepaper
                     </a>
-                  </p>
-                </div>
-
-                <div className="countdown-timer">
-                  <h4 className="animateDownUp">We are Live on Uniswap.</h4>
-                  {/* <Countdown renderer={renderer} date={"2024-04-25T14:45:09"} /> */}
-                  {/* <CountdownTimer /> */}
-
-                  <p>
-                    Contract Address:{" "}
-                    <div className="d-flex align-items-center">
-                      <span className="copy-btn">
-                      0x63b0C0c2E4A1Ef8e2862c64ACc84e2459Dc426CD{" "}
-                      </span>
-                      <span onClick={handleClick} className="copy-code">
-                        <img src="/images/icons/icCopy.png" alt="copy icon" />
-                      </span>
-                    </div>
                   </p>
                 </div>
               </div>
@@ -306,7 +315,7 @@ function Home() {
               <div className="footer-social">
                 <ul>
                   <li>
-                    <a target="_blank" href="https://m.facebook.com/fuzuki.inu">
+                    <a target="_blank" href="https://m.facebook.com/fuzuki.inu" title="Facebook">
                       <img
                         src="/images/icons/ic-facebook.svg"
                         alt="facebook icon"
@@ -314,7 +323,7 @@ function Home() {
                     </a>
                   </li>
                   <li>
-                    <a target="_blank" href="https://twitter.com/Fuzuki_Inu">
+                    <a target="_blank" href="https://twitter.com/Fuzuki_Inu" title="Twitter">
                       <img
                         src="/images/icons/ic-twitter.svg"
                         alt="twitter icon"
@@ -322,7 +331,7 @@ function Home() {
                     </a>
                   </li>
                   <li>
-                    <a target="_blank" href="https://t.me/fuzukitoken">
+                    <a target="_blank" href="https://t.me/fuzukitoken" title="Telegram">
                       <img
                         src="/images/icons/ic-telegram.svg"
                         alt="Telegram icon"
@@ -333,6 +342,7 @@ function Home() {
                     <a
                       target="_blank"
                       href="https://www.instagram.com/fuzukiinu/"
+                      title="Instagram"
                     >
                       <img
                         src="/images/icons/ic-instagram.svg"
@@ -344,6 +354,7 @@ function Home() {
                     <a
                       target="_blank"
                       href=" https://www.youtube.com/@FuzukiArt"
+                      title="Youtube"
                     >
                       <img
                         src="/images/icons/ic-youtube.svg"
@@ -355,6 +366,7 @@ function Home() {
                     <a
                       target="_blank"
                       href=" https://discord.com/invite/VA8dtvtpce"
+                      title="Discord"
                     >
                       <img
                         src="/images/icons/ic-discord.svg"
