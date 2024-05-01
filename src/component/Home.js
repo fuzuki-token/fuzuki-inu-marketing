@@ -112,29 +112,13 @@ function Home() {
                       Buy  on Solana
                     </a> */}
                     <a
-                      href="https://app.uniswap.org/"
+                      href="https://app.uniswap.org/swap?inputCurrency=ETH&outputCurrency=0x63b0C0c2E4A1Ef8e2862c64ACc84e2459Dc426CD"
                       className="buy-now-btn"
                       target="_blank"
                     >
                       Buy On Uniswap
                     </a>
                   </div>
-                  <div className="countdown-timer pt-5">
-                  {/* <h4 className="animateDownUp">We are Live on Uniswap.</h4> */}
-                  {/* <Countdown renderer={renderer} date={"2024-04-25T14:45:09"} /> */}
-                  {/* <CountdownTimer /> */}
-                  <p>
-                    Contract Address:{" "}
-                    <div className="d-flex align-items-center">
-                      <span className="copy-btn">
-                      0x63b0C0c2E4A1Ef8e2862c64ACc84e2459Dc426CD{" "}
-                      </span>
-                      <span onClick={handleClick} className="copy-code">
-                        <img src="/images/icons/icCopy.png" alt="copy icon" />
-                      </span>
-                    </div>
-                  </p>
-                </div>
                 </div>
               </div>
               <div className="col-lg-6 d-flex flex-column ps-lg-4">
@@ -293,6 +277,26 @@ function Home() {
               <img src="/images/testimonial-14.png" alt="customer review" />
             </div>
           </Slider>
+        </div>
+      </section>
+      <section className="contract-address mb-5">
+        <div className="container">
+        <div className="countdown-timer">
+                  {/* <h4 className="animateDownUp">We are Live on Uniswap.</h4> */}
+                  {/* <Countdown renderer={renderer} date={"2024-04-25T14:45:09"} /> */}
+                  {/* <CountdownTimer /> */}
+                  <p>
+                    Contract Address:{" "}
+                    <div className="d-flex align-items-center">
+                      <span className="copy-btn">
+                      0x63b0C0c2E4A1Ef8e2862c64ACc84e2459Dc426CD{" "}
+                      </span>
+                      <span onClick={handleClick} className="copy-code">
+                        <img src="/images/icons/icCopy.png" alt="copy icon" />
+                      </span>
+                    </div>
+                  </p>
+                </div>
         </div>
       </section>
       <footer>
