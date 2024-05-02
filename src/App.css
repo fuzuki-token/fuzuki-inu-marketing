@@ -394,7 +394,8 @@ footer .container::before{
 }
  
 .client-testimonial{
-  padding: 40px 0;
+  padding-top: 40px;
+  padding-bottom: 50px;
 }
 
 
@@ -407,8 +408,8 @@ footer .container::before{
   background-color: #fff;
   border-radius: 8px;
 }
-.testimonial-box img:first-child{
-  margin-bottom: 15px;
+.testimonial-box img{
+  margin: 0 auto;
 }
  
  
