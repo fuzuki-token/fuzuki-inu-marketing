@@ -318,8 +318,8 @@ function Home() {
       </section>
       <footer>
         <div className="container">
-            <div className="countdown-timer mb-5">
-              {/* <h4 className="animateDownUp">We are Live on Uniswap.</h4> */}
+            <div className="countdown-timer mb-4 mb-lg-5">
+              {/* <h4 className="animateDownUp">We  are Live on Uniswap.</h4> */}
               {/* <Countdown renderer={renderer} date={"2024-04-25T14:45:09"} /> */}
               {/* <CountdownTimer /> */}
               <p className="contract-address d-lg-flex align-items-lg-center">
@@ -337,7 +337,7 @@ function Home() {
           <div className="row align-items-center">
             <div className="col-xl-7">
               <div className="desclaimer-text">
-                <p className="mb-3">
+                <p className="mb-3 mb-xl-0">
                   <span>Disclaimer:</span> The use of fox symbols alongside
                   Fuzuki Inu represents our commitment to creativity and
                   personalization in our blockchain project. It is important to
