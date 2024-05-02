@@ -50,8 +50,8 @@ function Home() {
     dots: false,
     infinite: false,
     speed: 500,
-    slidesToShow: 3,
-    slidesToScroll: 1,
+    slidesToShow: 4,
+    slidesToScroll: 4,
     initialSlide: 0,
     responsive: [
       {
@@ -244,67 +244,100 @@ function Home() {
       </section>
       <section className="client-testimonial">
         <div className="container">
-          <div className="section-title">
-            <h4>Back on Public Demand</h4>
+          <div className="section-title mb-5">
+            <h4>We are covered on</h4>
           </div>
           <Slider {...settings}>
-            <div className="testimonial-box">
-              <img src="/images/testimonial-1.png" alt="customer review" />
-              <img src="/images/testimonial-2.png" alt="customer review" />
-            </div>
-            <div className="testimonial-box">
-              <img src="/images/testimonial-3.png" alt="customer review" />
-              <img src="/images/testimonial-4.png" alt="customer review" />
-            </div>
-            <div className="testimonial-box">
-              <img src="/images/testimonial-5.png" alt="customer review" />
-              <img src="/images/testimonial-6.png" alt="customer review" />
-            </div>
-            <div className="testimonial-box">
-              <img src="/images/testimonial-7.png" alt="customer review" />
-              <img src="/images/testimonial-9.png" alt="customer review" />
-            </div>
-            <div className="testimonial-box">
-              <img src="/images/testimonial-8.png" alt="customer review" />
-              <img src="/images/testimonial-10.png" alt="customer review" />
-            </div>
-            <div className="testimonial-box">
-              <img src="/images/testimonial-11.png" alt="customer review" />
-              <img src="/images/testimonial-12.png" alt="customer review" />
-            </div>
-            <div className="testimonial-box">
-              <img src="/images/testimonial-13.png" alt="customer review" />
-              <img src="/images/testimonial-14.png" alt="customer review" />
-            </div>
+            <a className="testimonial-box" href="https://www.globenewswire.com/en/search/organization/Fuzuki%2520Inu" title="Globenewswire" target="_blank">
+              <div className="brand-media">
+                <img src="/images/globenewswire.png" alt="globenewswire" />
+              </div>
+            </a>
+            <a className="testimonial-box" href="https://businessheadline.in/brand-post/crypto/fuzuki-inu-the-shiba-kanji-pre-sale-success-journey/" title="Businessheadline" target="_blank">
+              <div className="brand-media">
+                <img src="/images/business-headline.png" alt="business-headline" />
+              </div>
+            </a>
+            <a className="testimonial-box" href="https://beamstart.com/news/fuzuki-inu--the-shiba-17132726604820" title="Beamstart" target="_blank">
+              <div className="brand-media">
+                <img src="/images/beamstart.png" alt="beamstart" />
+              </div>
+            </a>
+            <a className="testimonial-box" href="https://finance.yahoo.com/news/fuzuki-inu-shiba-kanji-pre-130000826.html" title="Yahoo Finance" target="_blank">
+              <div className="brand-media">
+                <img src="/images/yahoo-finance.png" alt="Yahoo Finance" />
+              </div>
+            </a>
+            <a className="testimonial-box" href="https://www.nevadabusinessherald.com/article/695960788-fuzuki-inu-shiba-kanji-the-rising-star-of-the-blockchain" title="Nevadabusinessherald" target="_blank">
+              <div className="brand-media">
+                <img src="/images/nevadabusinessherald.png" alt="nevadabusinessherald" />
+              </div>
+            </a>
+            <a className="testimonial-box" href="https://www.einnews.com/pr_news/695960788/fuzuki-inu-shiba-kanji-the-rising-star-of-the-blockchain" title="Einnews" target="_blank">
+              <div className="brand-media">
+                <img src="/images/einnews.png" alt="einnews" />
+              </div>
+            </a>
+            <a className="testimonial-box" href="https://3dprinting.einnews.com/pr_news/695960788/fuzuki-inu-shiba-kanji-the-rising-star-of-the-blockchain" title="3dprinting Einnews" target="_blank">
+              <div className="brand-media">
+                <img src="/images/3dprinting.png" alt="3dprinting" />
+              </div>
+            </a>
+            <a className="testimonial-box" href="https://www.einpresswire.com/article/695960788/fuzuki-inu-shiba-kanji-the-rising-star-of-the-blockchain" title="Einpresswire" target="_blank">
+              <div className="brand-media">
+                <img src="/images/einpresswire.png" alt="einpresswire" />
+              </div>
+            </a>
+            <a className="testimonial-box" href="https://businessheadline.in/brand-post/technology/announcing-fuzuki-inu-the-shiba-kanji-pre-sale-dont-miss-the-opportunity-be-an-early-investor/" title="Businessheadline" target="_blank">
+              <div className="brand-media">
+                <img src="/images/business-headline.png" alt="business-headline" />
+              </div>
+            </a>
+            <a className="testimonial-box" href="https://www.todayinbusiness.com/article/695960788-fuzuki-inu-shiba-kanji-the-rising-star-of-the-blockchain" title="Todayinbusiness" target="_blank">
+              <div className="brand-media">
+                <img src="/images/todayinbusiness.png" alt="todayinbusiness" />
+              </div>
+            </a>
+            <a className="testimonial-box" href="https://finance.yahoo.com/news/fuzuki-inu-shiba-kanji-rising-160000678.html" title="Yahoo Finance" target="_blank">
+              <div className="brand-media">
+                <img src="/images/yahoo-finance.png" alt="Yahoo Finance" />
+              </div>
+            </a>
+            <a className="testimonial-box" href="https://gdc.einnews.com/pr_news/695960788/fuzuki-inu-shiba-kanji-the-rising-star-of-the-blockchain" title="Gdc Einnews" target="_blank">
+              <div className="brand-media">
+                <img src="/images/gdc-einnews.png" alt="gdc-einnews" />
+              </div>
+            </a>
+            <a className="testimonial-box" href="https://ems.einnews.com/pr_news/695960788/fuzuki-inu-shiba-kanji-the-rising-star-of-the-blockchain" title="Ems Einnews" target="_blank">
+              <div className="brand-media">
+                <img src="/images/ems-einnews.png" alt="ems-einnews" />
+              </div>
+            </a>
           </Slider>
-        </div>
-      </section>
-      <section className="contract-address mb-5">
-        <div className="container">
-        <div className="countdown-timer">
-                  {/* <h4 className="animateDownUp">We are Live on Uniswap.</h4> */}
-                  {/* <Countdown renderer={renderer} date={"2024-04-25T14:45:09"} /> */}
-                  {/* <CountdownTimer /> */}
-                  <p>
-                    Contract Address:{" "}
-                    <div className="d-flex align-items-center">
-                      <span className="copy-btn">
-                      0x63b0C0c2E4A1Ef8e2862c64ACc84e2459Dc426CD{" "}
-                      </span>
-                      <span onClick={handleClick} className="copy-code">
-                        <img src="/images/icons/icCopy.png" alt="copy icon" />
-                      </span>
-                    </div>
-                  </p>
-                </div>
         </div>
       </section>
       <footer>
         <div className="container">
+            <div className="countdown-timer mb-4 mb-lg-5">
+              {/* <h4 className="animateDownUp">We  are Live on Uniswap.</h4> */}
+              {/* <Countdown renderer={renderer} date={"2024-04-25T14:45:09"} /> */}
+              {/* <CountdownTimer /> */}
+              <p className="contract-address d-lg-flex align-items-lg-center">
+                <span className="pe-lg-2">Fuzuki Inu Contract Address :{" "}</span>
+                <div className="d-flex align-items-center">
+                  <span className="copy-btn">
+                    0x63b0C0c2E4A1Ef8e2862c64ACc84e2459Dc426CD{" "}
+                  </span>
+                  <span onClick={handleClick} className="copy-code">
+                    <img src="/images/icons/icCopy.png" alt="copy icon" />
+                  </span>
+                </div>
+              </p>
+            </div>
           <div className="row align-items-center">
             <div className="col-xl-7">
               <div className="desclaimer-text">
-                <p className="mb-3">
+                <p className="mb-3 mb-xl-0">
                   <span>Disclaimer:</span> The use of fox symbols alongside
                   Fuzuki Inu represents our commitment to creativity and
                   personalization in our blockchain project. It is important to
