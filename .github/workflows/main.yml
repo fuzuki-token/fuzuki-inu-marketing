@@ -28,15 +28,15 @@ jobs:
       run: npm run build
 
     - name: Check SSH Connection
-      run: ssh -o "StrictHostKeyChecking=no" ${{ secrets.AWS_USERNAME_PROD }}@${{ secrets.AWS_HOST_PROD }} -p ${{ secrets.AWS_SSH_PORT_PROD }} "echo 'SSH connection successful!'"
+      run: ssh -o "StrictHostKeyChecking=no" ${{ secrets.USERNAME_PROD }}@${{ secrets.HOST_PROD }} -p ${{ secrets.SSH_PORT_PROD }} "echo 'SSH connection successful!'"
 
     - name: Deploy to AWS
       uses: appleboy/ssh-action@master
       with:
-        host: ${{ secrets.AWS_HOST_PROD }}
-        username: ${{ secrets.AWS_USERNAME_PROD }}
-        key: ${{ secrets.AWS_SSH_KEY_PROD }}
-        port: ${{ secrets.AWS_SSH_PORT_PROD }}
+        host: ${{ secrets.HOST_PROD }}
+        username: ${{ secrets.USERNAME_PROD }}
+        key: ${{ secrets.SSH_KEY_PROD }}
+        port: ${{ secrets.SSH_PORT_PROD }}
         script: |
           cd /home/ubuntu/fuzuki-inu-marketing
           git pull origin main
