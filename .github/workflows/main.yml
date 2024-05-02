@@ -13,6 +13,14 @@ jobs:
     - name: Checkout code
       uses: actions/checkout@v2
 
+    - name: Install Node.js and npm
+      run: |
+        sudo apt update
+        sudo apt install nodejs npm
+
+    - name: Install pm2 globally
+      run: npm install -g pm2
+
     - name: Install dependencies
       run: npm install
 
