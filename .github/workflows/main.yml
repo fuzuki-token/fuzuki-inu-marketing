@@ -27,6 +27,9 @@ jobs:
     - name: Build
       run: npm run build
 
+    - name: Check SSH Connection
+      run: ssh -o "StrictHostKeyChecking=no" ${{ secrets.AWS_USERNAME_PROD }}@${{ secrets.AWS_HOST_PROD }} -p ${{ secrets.AWS_SSH_PORT_PROD }} "echo 'SSH connection successful!'"
+
     - name: Deploy to AWS
       uses: appleboy/ssh-action@master
       with:
