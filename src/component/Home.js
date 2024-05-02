@@ -248,29 +248,59 @@ function Home() {
             <h4>We are covered on</h4>
           </div>
           <Slider {...settings}>
-            <a className="testimonial-box" href="https://www.globenewswire.com/en/search/organization/Fuzuki%2520Inu" title="Globenewswire" target="_blank">
+            {/* <a className="testimonial-box" href="https://www.globenewswire.com/en/search/organization/Fuzuki%2520Inu" title="Globenewswire" target="_blank">
               <div className="brand-media">
                 <img src="/images/globenewswire.png" alt="globenewswire" />
               </div>
-            </a>
-            <a className="testimonial-box" href="https://www.globenewswire.com/en/search/organization/Fuzuki%2520Inu" title="Globenewswire" target="_blank">
+            </a> */}
+            <a className="testimonial-box" href="https://businessheadline.in/brand-post/crypto/fuzuki-inu-the-shiba-kanji-pre-sale-success-journey/" title="Businessheadline" target="_blank">
               <div className="brand-media">
-                <img src="/images/globenewswire.png" alt="globenewswire" />
+                <img src="/images/business-headline.png" alt="business-headline" />
               </div>
             </a>
-            <a className="testimonial-box" href="https://www.globenewswire.com/en/search/organization/Fuzuki%2520Inu" title="Globenewswire" target="_blank">
+            <a className="testimonial-box" href="https://beamstart.com/news/fuzuki-inu--the-shiba-17132726604820" title="Beamstart" target="_blank">
               <div className="brand-media">
-                <img src="/images/globenewswire.png" alt="globenewswire" />
+                <img src="/images/beamstart.png" alt="beamstart" />
               </div>
             </a>
-            <a className="testimonial-box" href="https://www.globenewswire.com/en/search/organization/Fuzuki%2520Inu" title="Globenewswire" target="_blank">
+            <a className="testimonial-box" href="https://www.nevadabusinessherald.com/article/695960788-fuzuki-inu-shiba-kanji-the-rising-star-of-the-blockchain" title="Nevadabusinessherald" target="_blank">
               <div className="brand-media">
-                <img src="/images/globenewswire.png" alt="globenewswire" />
+                <img src="/images/nevadabusinessherald.png" alt="nevadabusinessherald" />
               </div>
             </a>
-            <a className="testimonial-box" href="https://www.globenewswire.com/en/search/organization/Fuzuki%2520Inu" title="Globenewswire" target="_blank">
+            <a className="testimonial-box" href="https://www.einnews.com/pr_news/695960788/fuzuki-inu-shiba-kanji-the-rising-star-of-the-blockchain" title="Einnews" target="_blank">
               <div className="brand-media">
-                <img src="/images/globenewswire.png" alt="globenewswire" />
+                <img src="/images/einnews.png" alt="einnews" />
+              </div>
+            </a>
+            <a className="testimonial-box" href="https://3dprinting.einnews.com/pr_news/695960788/fuzuki-inu-shiba-kanji-the-rising-star-of-the-blockchain" title="3dprinting Einnews" target="_blank">
+              <div className="brand-media">
+                <img src="/images/3dprinting.png" alt="3dprinting" />
+              </div>
+            </a>
+            <a className="testimonial-box" href="https://www.einpresswire.com/article/695960788/fuzuki-inu-shiba-kanji-the-rising-star-of-the-blockchain" title="Einpresswire" target="_blank">
+              <div className="brand-media">
+                <img src="/images/einpresswire.png" alt="einpresswire" />
+              </div>
+            </a>
+            <a className="testimonial-box" href="https://businessheadline.in/brand-post/technology/announcing-fuzuki-inu-the-shiba-kanji-pre-sale-dont-miss-the-opportunity-be-an-early-investor/" title="Businessheadline" target="_blank">
+              <div className="brand-media">
+                <img src="/images/business-headline.png" alt="business-headline" />
+              </div>
+            </a>
+            <a className="testimonial-box" href="https://www.todayinbusiness.com/article/695960788-fuzuki-inu-shiba-kanji-the-rising-star-of-the-blockchain" title="Todayinbusiness" target="_blank">
+              <div className="brand-media">
+                <img src="/images/todayinbusiness.png" alt="todayinbusiness" />
+              </div>
+            </a>
+            <a className="testimonial-box" href="https://gdc.einnews.com/pr_news/695960788/fuzuki-inu-shiba-kanji-the-rising-star-of-the-blockchain" title="Gdc Einnews" target="_blank">
+              <div className="brand-media">
+                <img src="/images/gdc-einnews.png" alt="gdc-einnews" />
+              </div>
+            </a>
+            <a className="testimonial-box" href="https://ems.einnews.com/pr_news/695960788/fuzuki-inu-shiba-kanji-the-rising-star-of-the-blockchain" title="Ems Einnews" target="_blank">
+              <div className="brand-media">
+                <img src="/images/ems-einnews.png" alt="ems-einnews" />
               </div>
             </a>
           </Slider>

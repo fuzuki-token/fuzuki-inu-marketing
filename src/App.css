@@ -396,8 +396,16 @@ footer .container::before{
 .client-testimonial{
   padding: 40px 0;
 }
+
+
+.client-testimonial .slick-slide{
+  padding: 10px;
+}
+
 .testimonial-box{
-  padding: 0 7.5px;
+  padding: 10px;
+  background-color: #fff;
+  border-radius: 8px;
 }
 .testimonial-box img:first-child{
   margin-bottom: 15px;
