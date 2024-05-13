@@ -155,7 +155,7 @@ function Home() {
           <ul className="road-map-stages-list">
             <li className="row">
               <div className="col-lg-4">
-                <div className="stage-media mb-4">
+                <div className="stage-media mb-4 mb-lg-0">
                   <img
                     src="/images/Fuzuki_Inu_Launch.png"
                     alt="Fuzuki Inu Launch"
@@ -193,7 +193,7 @@ function Home() {
             </li>
             <li className="row flex-lg-row-reverse">
               <div className="col-lg-4 text-lg-end">
-                <div className="stage-media mb-4">
+                <div className="stage-media mb-4 mb-lg-0">
                   <img
                     src="/images/Fuzuki_Inu_CEX_listing.png"
                     alt="Fuzuki Inu CEX listing"
@@ -221,7 +221,7 @@ function Home() {
             </li>
             <li className="row">
               <div className="col-lg-4">
-                <div className="stage-media mb-4">
+                <div className="stage-media mb-4 mb-lg-0">
                   <img
                     src="/images/Fuzuki_Inu_DEX_launch.png"
                     alt="Fuzuki Inu DEX launch"
