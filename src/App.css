@@ -556,7 +556,7 @@ footer .container::before{
  
 @media only screen and (max-width: 479px){
   header .brand-logo{
-    max-width: 120px;
+    max-width: 100px;
     display: inline-block;
   }
   .copy-btn{
@@ -567,6 +567,10 @@ footer .container::before{
   }
   .countdown-timer .Hour{
     font-size: 38px;
+  }
+
+  .more-statics p{
+    font-size: 18px;
   }
 }
  
