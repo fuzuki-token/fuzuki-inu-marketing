@@ -86,9 +86,11 @@ p {
 .home-wrapper{
   width: 100%;
   min-height: 100vh;
-  background-image: url("../public/images/bg2.png");
+  background-image: url("../public/images/bg.png");
   background-repeat: no-repeat;
   background-size: cover;
+  background-attachment: fixed;
+  background-position: center top;
 }
  
  

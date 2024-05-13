@@ -85,11 +85,11 @@ function Home() {
               <a className="round-btn ms-3" href="https://www.geckoterminal.com/eth/pools/0x8e5827e417e9a24105f5c7488c8b78a445e07b46?utm_source=coingecko&utm_medium=referral&utm_campaign=searchresults" target="_blank">
                 <img src="/images/icons/ic-geckoterminal.png" alt="geckoterminal" title="Gecko Terminal" />
               </a>
-              <a className="round-btn ms-3" href="https://www.dextools.io/app/en/ether/pair-explorer/0x8e5827e417e9a24105f5c7488c8b78a445e07b46?t=1714110291907" target="_blank">
-                <img src="/images/icons/ic-dextools.png" alt="dextools" title="Dex Tools" />
-              </a>
               <a className="round-btn ms-3" href="https://etherscan.io/token/0x63b0C0c2E4A1Ef8e2862c64ACc84e2459Dc426CD" target="_blank">
                 <img src="/images/icons/ic-etherscan.png" alt="Etherscan" title="Etherscan" />
+              </a>
+              <a className="round-btn ms-3" href="https://www.dextools.io/app/en/ether/pair-explorer/0x8e5827e417e9a24105f5c7488c8b78a445e07b46?t=1714110291907" target="_blank">
+                <img src="/images/icons/ic-dextools.png" alt="dextools" title="Dex Tools" />
               </a>
             </div>
           </div>
