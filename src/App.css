@@ -123,7 +123,7 @@ header .container{
 
 
 header .brand-logo{
-  max-width: 220px;
+  max-width: 180px;
 }
 
 header .container .buy-now-btn{
@@ -144,7 +144,7 @@ header .container .buy-now-btn{
 }
 
 .fuziku-info{
-  padding-top: 50px;
+  padding-top: 45px;
   padding-bottom: 30px;
 }
  
@@ -408,13 +408,14 @@ footer .container::before{
 }
  
 .client-testimonial{
-  padding-top: 40px;
-  padding-bottom: 50px;
+  padding-top: 45px;
+  padding-bottom: 45px;
 }
 
 
 .client-testimonial .slick-slide{
   padding: 10px;
+  padding-bottom: 0;
 }
 
 .testimonial-box{
