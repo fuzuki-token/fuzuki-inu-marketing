@@ -86,21 +86,44 @@ p {
 .home-wrapper{
   width: 100%;
   min-height: 100vh;
-  background-image: url("../public/images/bg2.png");
+  background-image: url("../public/images/bg.png");
   background-repeat: no-repeat;
   background-size: cover;
+  background-attachment: fixed;
+  background-position: center top;
 }
  
  
 header{
-  padding-top: 20px;
-  padding-bottom: 30px;
+  padding-top: 25px;
+}
+
+header .container{
+  position: relative;
+}
+
+header .container::before{
+  content: "";
+  width: 821px;
+  max-width: 100%;
+  height: 2px;
+  display: block;
+  background-image: url("../public/images/icons/line-1.png");
+  background-repeat: no-repeat;
+  position: absolute;
+  right: 12px;
+  bottom: 0;
 }
 
 header .container{
   display: flex;
   align-items: center;
   justify-content: space-between;
+}
+
+
+header .brand-logo{
+  max-width: 180px;
 }
 
 header .container .buy-now-btn{
@@ -119,25 +142,16 @@ header .container .buy-now-btn{
   font-family: "Jockey One", sans-serif;
   font-size: 24px;
 }
+
+.fuziku-info{
+  padding-top: 45px;
+  padding-bottom: 30px;
+}
  
 .fuziku-info .fuziku-info-content{
   position: relative;
-  padding-bottom: 35px;
 }
- 
-.fuziku-info .fuziku-info-content::before{
-  content: "";
-  width: 821px;
-  max-width: 100%;
-  height: 2px;
-  display: block;
-  background-image: url("../public/images/icons/line-1.png");
-  background-repeat: no-repeat;
-  position: absolute;
-  right: 0;
-  top: -45px;
-}
- 
+  
 .fuziku-info-media{
   position: relative;
   margin-top: 10px;
@@ -241,8 +255,8 @@ header .container .buy-now-btn{
 }
  
 .road-map-stages-list > li{
-  padding-top: 30px;
-  padding-bottom: 40px;
+  padding-top: 45px;
+  padding-bottom: 45px;
   position: relative;
 }
  
@@ -394,8 +408,8 @@ footer .container::before{
 }
  
 .client-testimonial{
-  padding-top: 40px;
-  padding-bottom: 50px;
+  padding-top: 45px;
+  padding-bottom: 45px;
 }
 
 
@@ -504,10 +518,7 @@ footer .container::before{
     margin: 0;
     margin-top: 20px;
   }
-  .fuziku-info .fuziku-info-content::before{
-    top: -15px;
-  }
- 
+  
   .fuziku-info-media .buy-now-btn-wrapper{
     left: 391px;
   }
@@ -519,6 +530,9 @@ footer .container::before{
 @media only screen and (max-width:767px){
   header .brand-logo{
     max-width: 140px;
+  }
+  header .container::before{
+    bottom: -25px;
   }
   .section-title h4{
     font-size: 42px;
@@ -554,7 +568,7 @@ footer .container::before{
  
 @media only screen and (max-width: 479px){
   header .brand-logo{
-    max-width: 120px;
+    max-width: 100px;
     display: inline-block;
   }
   .copy-btn{
@@ -565,6 +579,10 @@ footer .container::before{
   }
   .countdown-timer .Hour{
     font-size: 38px;
+  }
+
+  .more-statics p{
+    font-size: 18px;
   }
 }
  
