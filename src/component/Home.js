@@ -248,6 +248,56 @@ function Home() {
           </ul>
         </div>
       </section>
+
+      <section className="progress-bar">
+        <div className="container">
+            <ul className="progress-steps">
+              <li className="progress-step last-completed-step">
+                <div className="shape"></div>
+                <div className="content">
+                  <span className="date">June 2024</span>
+                  <span className="title">Polygon</span>
+                </div>
+              </li>
+              <li className="progress-step">
+                <div className="shape"></div>
+                <div className="content">
+                  <span className="date">July 2024</span>
+                  <span className="title">Solana</span>
+                </div>
+              </li>
+              <li className="progress-step">
+                <div className="shape"></div>
+                <div className="content">
+                  <span className="date">August 2024</span>
+                  <span className="title">Game Platform</span>
+                </div>
+              </li>
+              <li className="progress-step">
+                <div className="shape"></div>
+                <div className="content">
+                  <span className="date">September 2024</span>
+                  <span className="title">DEX Beta</span>
+                </div>
+              </li>
+              <li className="progress-step">
+                <div className="shape"></div>
+                <div className="content">
+                  <span className="date">Oct 2024</span>
+                  <span className="title">DEX</span>
+                </div>
+              </li>
+              <li className="progress-step">
+                <div className="shape"></div>
+                <div className="content">
+                  <span className="date">Dec 2024</span>
+                  <span className="title">DEX Listing</span>
+                </div>
+              </li>
+            </ul>
+        </div>
+      </section>
+
       <section className="client-testimonial">
         <div className="container">
           <div className="section-title mb-5">
