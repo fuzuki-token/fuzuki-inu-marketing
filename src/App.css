@@ -633,8 +633,8 @@ footer .container::before{
 ------------------------------------*/
 
 .progress-bar{
-  padding-top: 200px;
-  padding-bottom: 130px;
+  padding-top: 230px;
+  padding-bottom: 190px;
 }
 
 .progress-bar .progress-steps{
@@ -650,8 +650,8 @@ footer .container::before{
 }
 
 .progress-bar .progress-step{
-  flex: 0 0 16.6666666%;
-  max-width: 16.6666666%;
+  flex: 1;
+  max-width: 100%;
   height: 8px;
   position: relative;
 }
@@ -740,6 +740,7 @@ footer .container::before{
 .progress-bar .progress-step .content{
   display: flex;
   flex-direction: column;
+  width: 100%;
   position: absolute;
   bottom: 90px;
   left: 50%;
@@ -755,10 +756,70 @@ footer .container::before{
 .progress-bar .progress-step .content span{
   font-size: 16px;
   color: #fff;
+  line-height: 22px;
+  text-wrap: wrap;
 }
 
 .progress-bar .progress-step .content span.date{
   font-size: 18px;
   font-weight: bold;
   padding-bottom: 10px;
+}
+
+
+/* @media only screen and (max-width: 767px){
+  .progress-bar .progress-steps{
+    height: auto;
+    width: 8px;
+    margin: 0 auto;
+  }
+  .progress-bar .progress-steps{
+    flex-direction: column
+  }
+
+  .progress-bar .progress-step{
+    width: 8px;
+
+  }
+  .progress-bar .progress-step .content{
+    position: static;
+    transform: translateY(0);
+  }
+
+  .progress-bar .shape{
+    display: none;
+  }
+} */
+
+
+@media only screen and (max-width: 767px){
+  .progress-bar{
+    padding-top: 190px;
+    padding-bottom: 175px;
+  }
+  .progress-bar .progress-step .content span{
+    font-size: 11px;
+    line-height: 14px;
+  }
+  .progress-bar .progress-step .content span.date{
+    font-size: 14px;
+    font-weight: 600;
+    padding-bottom: 5px;
+  }
+}
+
+@media only screen and (max-width: 575px){
+  .progress-bar{
+    padding-top: 190px;
+    padding-bottom: 175px;
+  }
+  .progress-bar .progress-step .content span{
+    font-size: 9px;
+    line-height: 12px;
+  }
+  .progress-bar .progress-step .content span.date{
+    font-size: 12px;
+    font-weight: 600;
+    padding-bottom: 5px;
+  }
 }
