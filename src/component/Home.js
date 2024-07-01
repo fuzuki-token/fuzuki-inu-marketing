@@ -252,25 +252,46 @@ function Home() {
       <section className="progress-bar">
         <div className="container">
             <ul className="progress-steps">
+            <li className="progress-step step-completed">
+                <div className="shape"></div>
+                <div className="content">
+                  <span className="date">Feb 2024</span>
+                  <span className="title">Planning</span>
+                </div>
+              </li>
               <li className="progress-step step-completed">
                 <div className="shape"></div>
                 <div className="content">
-                  <span className="date">April 2024</span>
+                  <span className="date">Mar 2024</span>
+                  <span className="title">White paper</span>
+                </div>
+              </li>
+              <li className="progress-step step-completed">
+                <div className="shape"></div>
+                <div className="content">
+                  <span className="date">Apr 2024</span>
+                  <span className="title">Smart Contract Development</span>
+                </div>
+              </li>
+              <li className="progress-step step-completed">
+                <div className="shape"></div>
+                <div className="content">
+                  <span className="date">Apr 2024</span>
                   <span className="title">Token launch on Uniswap</span>
                 </div>
               </li>
               <li className="progress-step step-completed">
                 <div className="shape"></div>
                 <div className="content">
-                  <span className="date">April 2024</span>
-                  <span className="title">Smart contract Deployment on Polygon</span>
+                  <span className="date">Apr 2024</span>
+                  <span className="title">Polygon(Smart contract Deployment)</span>
                 </div>
               </li>
               <li className="progress-step step-completed">
                 <div className="shape"></div>
                 <div className="content">
                   <span className="date">May 2024</span>
-                  <span className="title">Smart contract Deployment on Solana</span>
+                  <span className="title">Solana(Smart contract Deployment)</span>
                 </div>
               </li>
               <li className="progress-step step-completed">
@@ -283,22 +304,22 @@ function Home() {
               <li className="progress-step">
                 <div className="shape"></div>
                 <div className="content">
-                  <span className="date">July 2024</span>
+                  <span className="date">Jul 2024</span>
                   <span className="title">Solana Pair Integration</span>
                 </div>
               </li>
               <li className="progress-step">
                 <div className="shape"></div>
                 <div className="content">
-                  <span className="date">August 2024</span>
-                  <span className="title">Game Platform Launch</span>
+                  <span className="date">Aug 2024</span>
+                  <span className="title">Game Platform</span>
                 </div>
               </li>
               <li className="progress-step">
                 <div className="shape"></div>
                 <div className="content">
-                  <span className="date">Sept 2024</span>
-                  <span className="title">Beta DEX Launch</span>
+                  <span className="date">Sep 2024</span>
+                  <span className="title">Beta DEX</span>
                 </div>
               </li>
               <li className="progress-step">

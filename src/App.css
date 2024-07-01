@@ -754,45 +754,91 @@ footer .container::before{
 }
 
 .progress-bar .progress-step .content span{
-  font-size: 16px;
+  font-size: 14px;
   color: #fff;
-  line-height: 22px;
+  line-height: 20px;
   text-wrap: wrap;
 }
 
 .progress-bar .progress-step .content span.date{
-  font-size: 18px;
+  font-size: 16px;
   font-weight: bold;
   padding-bottom: 10px;
 }
 
 
-/* @media only screen and (max-width: 767px){
+@media only screen and (max-width: 767px){
+  .progress-bar{
+    padding-top: 40px;
+    padding-bottom: 20px;
+  }
   .progress-bar .progress-steps{
     height: auto;
-    width: 8px;
+    width: 100%;
     margin: 0 auto;
+    background-color: transparent;
   }
+
   .progress-bar .progress-steps{
     flex-direction: column
   }
 
-  .progress-bar .progress-step{
-    width: 8px;
-
+  .progress-bar .progress-steps::before{
+    content: "";
+    display: block;
+    width: 4px;
+    height: 100%;
+    background-color: #fff;
+    position: absolute;
+    left: 0;
+    top: 0;
   }
+
+  .progress-bar .progress-step{
+    padding: 15px 0;
+  }
+  .progress-bar .progress-step:first-child{
+    padding-top: 0;
+  }
+  .progress-bar .progress-step:last-child{
+    padding-bottom: 0;
+  }
+
+  .progress-bar .progress-step.step-completed::before{
+   width: 4px;
+   left: 0;
+  }
+
+  .progress-bar .progress-step.step-completed::after{
+    display: none;
+  }
+
   .progress-bar .progress-step .content{
     position: static;
     transform: translateY(0);
   }
 
   .progress-bar .shape{
-    display: none;
+    left: 27px;
+    transform: translateY(-50%) rotate(90deg);
+    top: 50%;
   }
-} */
+
+  .progress-bar .progress-step:nth-child(even) .shape{
+    transform: translateY(-50%) rotate(-90deg);
+    top: 50%;
+  }
+}
+
+@media only screen and (max-width: 479px){
+  .progress-bar .progress-step .content span.title{
+    max-width: 160px;
+    margin: 0 auto;
+  }
+}
 
 
-@media only screen and (max-width: 767px){
+/* @media only screen and (max-width: 767px){
   .progress-bar{
     padding-top: 190px;
     padding-bottom: 175px;
@@ -822,4 +868,4 @@ footer .container::before{
     font-weight: 600;
     padding-bottom: 5px;
   }
-}
+} */
