@@ -280,52 +280,38 @@ function Home() {
                   <span className="title">Token launch on Uniswap</span>
                 </div>
               </li>
-              <li className="progress-step step-completed">
+              <li className="progress-step">
                 <div className="shape"></div>
                 <div className="content">
-                  <span className="date">Apr 2024</span>
-                  <span className="title">Polygon(Smart contract Deployment)</span>
-                </div>
-              </li>
-              <li className="progress-step step-completed">
-                <div className="shape"></div>
-                <div className="content">
-                  <span className="date">May 2024</span>
-                  <span className="title">Solana(Smart contract Deployment)</span>
-                </div>
-              </li>
-              <li className="progress-step step-completed">
-                <div className="shape"></div>
-                <div className="content">
-                  <span className="date">Jun 2024</span>
+                  <span className="date">July 2024</span>
                   <span className="title">Polygon Pair integration</span>
                 </div>
               </li>
               <li className="progress-step">
                 <div className="shape"></div>
                 <div className="content">
-                  <span className="date">Jul 2024</span>
+                  <span className="date">Aug 2024</span>
                   <span className="title">Solana Pair Integration</span>
                 </div>
               </li>
               <li className="progress-step">
                 <div className="shape"></div>
                 <div className="content">
-                  <span className="date">Aug 2024</span>
+                  <span className="date">Sep 2024</span>
                   <span className="title">Game Platform</span>
                 </div>
               </li>
               <li className="progress-step">
                 <div className="shape"></div>
                 <div className="content">
-                  <span className="date">Sep 2024</span>
+                  <span className="date">Oct 2024</span>
                   <span className="title">Beta DEX</span>
                 </div>
               </li>
               <li className="progress-step">
                 <div className="shape"></div>
                 <div className="content">
-                  <span className="date">Oct 2024</span>
+                  <span className="date">Nov 2024</span>
                   <span className="title">DEX</span>
                 </div>
               </li>
