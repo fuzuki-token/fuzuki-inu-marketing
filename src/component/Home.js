@@ -249,7 +249,7 @@ function Home() {
         </div>
       </section>
 
-      <section className="progress-bar">
+      {/* <section className="progress-bar">
         <div className="container">
             <ul className="progress-steps">
             <li className="progress-step step-completed">
@@ -324,7 +324,7 @@ function Home() {
               </li>
             </ul>
         </div>
-      </section>
+      </section> */}
 
       <section className="client-testimonial">
         <div className="container">
